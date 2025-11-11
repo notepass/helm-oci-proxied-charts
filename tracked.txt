@@ -1,0 +1,1 @@
+oci://codeberg.org/wrenix/helm-charts/paperless-ngx
