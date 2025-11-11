@@ -38,6 +38,14 @@ if [ "$WORK_DONE" == "true" ]
 then
   echo "Creating index"
   helm repo index charts --url https://notepass.github.io/helm-oci-proxied-charts/charts/
+  if [ "$GHA" == "true" ]
+  then
+    echo "changes_present=true" >> $GITHUB_OUTPUT
+  fi
 else
   echo "No updates happened - Skipping index update"
+  if [ "$GHA" == "true" ]
+    then
+    echo "changes_present=true" >> $GITHUB_OUTPUT
+  fi
 fi

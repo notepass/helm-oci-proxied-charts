@@ -30,18 +30,8 @@ jobs:
       - name: Run update-all.sh
         run: |
           chmod +x update-all.sh
+          export GHA=true
           ./update-all.sh
-
-      - name: Check for changes
-        if: ${{ success() }}
-        id: check_changes
-        run: |
-          git add -A
-          if [[ -n "$(git status --porcelain)" ]]; then
-            echo "changes_present=true" >> $GITHUB_OUTPUT
-          else
-            echo "changes_present=false" >> $GITHUB_OUTPUT
-          fi
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes_present == 'true'
