@@ -3,7 +3,7 @@ entries:
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.19.4
-    created: "2025-11-11T17:47:08.691593907Z"
+    created: "2025-11-11T17:55:09.404107953Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -38,7 +38,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-11T17:47:08.661096974Z"
+    created: "2025-11-11T17:55:09.398627066Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -73,7 +73,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-11T17:47:08.62680445Z"
+    created: "2025-11-11T17:55:09.392466111Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -108,7 +108,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-11T17:47:08.598526385Z"
+    created: "2025-11-11T17:55:09.386410513Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -143,7 +143,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-11T17:47:08.534482166Z"
+    created: "2025-11-11T17:55:09.375170582Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -178,7 +178,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.18.2
-    created: "2025-11-11T17:47:08.476180124Z"
+    created: "2025-11-11T17:55:09.36362859Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -213,7 +213,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2025-11-11T17:47:08.421911383Z"
+    created: "2025-11-11T17:55:09.353239931Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -248,7 +248,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.367549691Z"
+    created: "2025-11-11T17:55:09.342039324Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -283,7 +283,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.313181073Z"
+    created: "2025-11-11T17:55:09.330162704Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -318,7 +318,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.258462898Z"
+    created: "2025-11-11T17:55:09.319429407Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -353,7 +353,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.199024573Z"
+    created: "2025-11-11T17:55:09.307388852Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -388,7 +388,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.158002478Z"
+    created: "2025-11-11T17:55:09.296148469Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -423,7 +423,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:47:08.12450795Z"
+    created: "2025-11-11T17:55:09.284597978Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -458,7 +458,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-11T17:47:08.09223557Z"
+    created: "2025-11-11T17:55:09.274074137Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -493,7 +493,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-11T17:47:08.060476721Z"
+    created: "2025-11-11T17:55:09.263729522Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -528,7 +528,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2025-11-11T17:47:08.021410564Z"
+    created: "2025-11-11T17:55:09.252685429Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -563,7 +563,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.995244345Z"
+    created: "2025-11-11T17:55:09.241217294Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -598,7 +598,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.966728162Z"
+    created: "2025-11-11T17:55:09.23082616Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -633,7 +633,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.93875529Z"
+    created: "2025-11-11T17:55:09.220407494Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -668,7 +668,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.91270625Z"
+    created: "2025-11-11T17:55:09.209867342Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -703,7 +703,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.886745738Z"
+    created: "2025-11-11T17:55:09.198286482Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -738,7 +738,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.860829019Z"
+    created: "2025-11-11T17:55:09.187059404Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -773,7 +773,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:47:07.833592429Z"
+    created: "2025-11-11T17:55:09.176692181Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -806,4 +806,4 @@ entries:
     urls:
     - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-11T17:47:07.791601335Z"
+generated: "2025-11-11T17:55:09.164925488Z"
