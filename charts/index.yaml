@@ -3,7 +3,7 @@ entries:
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.19.4
-    created: "2025-11-11T15:48:12.266185942Z"
+    created: "2025-11-11T15:55:24.651334065Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -34,6 +34,6 @@ entries:
     - https://codeberg.org/wrenix/helm-charts/src/branch/main/paperless-ngx
     type: application
     urls:
-    - https://example.com/paperless-ngx-0.3.2.tgz
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.3.2.tgz
     version: 0.3.2
-generated: "2025-11-11T15:48:12.257107078Z"
+generated: "2025-11-11T15:55:24.64272048Z"

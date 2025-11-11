@@ -19,4 +19,4 @@ fi
 helm pull "$OCI_URL" --version "$OCI_TAG"
 cd ..
 
-helm repo index charts --url https://example.com/
+helm repo index charts --url https://notepass.github.io/helm-oci-proxied-charts/charts/
