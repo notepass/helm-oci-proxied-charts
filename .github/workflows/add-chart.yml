@@ -1,0 +1,71 @@
+name: Add Chart to Proxied Charts
+
+on:
+  workflow_dispatch:
+    inputs:
+      chart_url:
+        description: 'OCI Helm repository URL (e.g., oci://ghcr.io/org/repo)'
+        required: true
+        type: string
+
+jobs:
+  add-chart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PUSH_TOKEN }}
+
+      - name: Set up git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install ORAS CLI
+        run: |
+          curl -L https://github.com/oras-project/oras/releases/download/v1.3.0/oras_1.3.0_linux_amd64.tar.gz -o oras.tar.gz
+          tar -xzf oras.tar.gz
+          sudo mv oras /usr/local/bin/oras
+          rm oras.tar.gz
+          oras version
+
+      - name: Validate OCI Helm repository
+        id: validate_repo
+        run: |
+          set -e
+          repo_url="${{ github.event.inputs.chart_url }}"
+          # Remove oci:// prefix for oras
+          repo_no_prefix="${repo_url#oci://}"
+          echo "Checking tags for $repo_no_prefix"
+          tags=$(oras repo tags "$repo_no_prefix" || true)
+          if echo "$tags" | grep -qE "^[0-9a-zA-Z]"; then
+            echo "valid_repo=true" >> $GITHUB_OUTPUT
+          else
+            echo "No valid tags found. Not a valid OCI Helm repo."
+            echo "valid_repo=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Add chart URL to tracked.txt
+        id: add_to_list
+        if: steps.validate_repo.outputs.valid_repo == 'true'
+        run: |
+          chart_url="${{ github.event.inputs.chart_url }}"
+          if grep -Fxq "$chart_url" tracked.txt; then
+            echo "Chart URL already present in tracked.txt."
+            echo "added=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+          echo "$chart_url" >> tracked.txt
+          echo "added=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.validate_repo.outputs.valid_repo == 'true' && steps.add_to_list.outputs.added == 'true'
+        run: |
+          git add tracked.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: add chart ${{ github.event.inputs.chart_url }} to tracked.txt"
+          git push
