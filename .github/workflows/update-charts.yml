@@ -32,15 +32,21 @@ jobs:
           chmod +x update-all.sh
           ./update-all.sh
 
-      - name: Commit and push changes
+      - name: Check for changes
         if: ${{ success() }}
+        id: check_changes
+        run: |
+          git add -A
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "changes_present=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes_present=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes_present == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit."
-            exit 0
-          fi
           git commit -m "chore: daily chart update"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
