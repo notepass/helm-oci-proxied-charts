@@ -30,8 +30,8 @@ jobs:
       - name: Run update-all.sh
         run: |
           chmod +x update-all.sh
-          export GHA=true
-          ./update-all.sh
+          export GHA="true"
+          GHA="true" ./update-all.sh
 
       - name: Commit and push changes
         if: steps.check_changes.outputs.changes_present == 'true'

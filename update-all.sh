@@ -43,12 +43,14 @@ then
   helm repo index charts --url https://notepass.github.io/helm-oci-proxied-charts/charts/
   if [ "$GHA" == "true" ]
   then
+    echo "Writing changes_present=true to changes to $GITHUB_OUTPUT"
     echo "changes_present=true" >> "$GITHUB_OUTPUT"
   fi
 else
   echo "No updates happened - Skipping index update"
   if [ "$GHA" == "true" ]
     then
-    echo "changes_present=true" >> "$GITHUB_OUTPUT"
+      echo "Writing changes_present=false to changes to $GITHUB_OUTPUT"
+    echo "changes_present=false" >> "$GITHUB_OUTPUT"
   fi
 fi
