@@ -28,15 +28,17 @@ jobs:
           oras version
 
       - name: Run update-all.sh
+        id: update_all
         run: |
           chmod +x update-all.sh
           export GHA="true"
           GHA="true" ./update-all.sh
 
       - name: Commit and push changes
-        if: steps.check_changes.outputs.changes_present == 'true'
+        if: steps.update_all.outputs.changes_present == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          git add -A ./charts
           git commit -m "chore: daily chart update"
           git push
