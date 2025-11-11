@@ -33,6 +33,7 @@ jobs:
           ./update-all.sh
 
       - name: Commit and push changes
+        if: ${{ success() }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
