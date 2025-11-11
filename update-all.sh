@@ -5,7 +5,7 @@ function localCacheExists() {
   local _chartName="$1"
   local _chartVersion="$2"
 
-  if [ -f "./charts/${_chartName}-${_chartVersion}.tgz" ]
+  if [ -f "./${_chartName}-${_chartVersion}.tgz" ]
   then
     return 0
   else
@@ -13,6 +13,7 @@ function localCacheExists() {
   fi
 }
 
+WORK_DONE=false
 while read -r repo
 do
   cd charts
@@ -25,10 +26,20 @@ do
     then
       echo "Missing local version of $chartName:$tag"
       helm pull "$repo" --version "$tag"
+      WORK_DONE=true
+    else
+      echo "Local version of $chartName:$tag exists, skipping pull"
     fi
   done
   cd ..
 done < ./tracked.txt
 
-echo "Creating index"
-helm repo index charts --url https://notepass.github.io/helm-oci-proxied-charts/charts/
+if [ "$WORK_DONE" == "true" ]
+then
+  echo "Creating index"
+  helm repo index charts --url https://notepass.github.io/helm-oci-proxied-charts/charts/
+  exit 0
+else
+  echo "No updates happened - Skipping index update"
+  exit 1
+fi
