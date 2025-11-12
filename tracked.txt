@@ -1,2 +1,1 @@
 oci://codeberg.org/wrenix/helm-charts/paperless-ngx
-oci://8gears.container-registry.com/library/n8n
