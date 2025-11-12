@@ -83,10 +83,3 @@ jobs:
           git commit -m "docs: update Currently deployed section for $chart_name"
           git push
 
-      - name: Trigger update-charts.yml
-        if: steps.add_to_list.outputs.added == 'true'
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh workflow run "Update Charts Daily"
-
