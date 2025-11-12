@@ -74,7 +74,7 @@ jobs:
         run: |
           chart_url="${{ github.event.inputs.chart_url }}"
           chart_name=$(basename "$chart_url")
-          entry="${chart_name} from the [${$chart_url} Repository](${$chart_url})."
+          entry="${chart_name} from the [${$chart_url} Repository](${chart_url})."
           if ! grep -Fq "$entry" README.md; then
             awk -v entry="$entry" '/^## Currently deployed/ {print; print entry; next} 1' README.md > README.md.tmp && mv README.md.tmp README.md
           fi
