@@ -1,9 +1,757 @@
 apiVersion: v1
 entries:
+  n8n:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Add terminationGracePeriodSeconds configuration for main, worker, and webhook pods"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.116.2
+    created: "2025-11-12T17:28:39.280314273Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 6184f0b0d3e0180061bf047c2f4984b78c1ceff3aeb03d0d0e2480935fdd3bec
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.1.0.tgz
+    version: 1.1.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "FIX: deployment.yaml - error converting YAML to JSON: yaml: line 46: could not find expected ':' #177 https://github.com/8gears/n8n-helm-chart/pull/177"
+        - kind: changed
+          description: "bump n8n version to 1.99.1"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.99.1
+    created: "2025-11-12T17:28:39.274263887Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 1a757d89ecd834833fa95aae2a8fb404f081be5c958c5f60b744c474b57aff81
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.9.tgz
+    version: 1.0.9
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: "Incorporate features and bug fixes from n8n 1.86.0"
+        - kind: added
+          description: "Add additional example helm values for how to add n8n main configuration settings to the values"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.86.0
+    created: "2025-11-12T17:28:39.26815418Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: fd6bfea07c2f5da049237aa18b44b287b751d546ec7f22dfb098e5fa34bd0336
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.8.tgz
+    version: 1.0.8
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "fix https://github.com/8gears/n8n-helm-chart/issues/176"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.85.1
+    created: "2025-11-12T17:28:39.262024329Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 91fb06865be2a7bfbecf7472df0801b730299b01c5b73580f70be33d421d61fb
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.7.tgz
+    version: 1.0.7
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "fix https://github.com/8gears/n8n-helm-chart/issues/176"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.85.1
+    created: "2025-11-12T17:28:39.255573214Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 5b97669bbd1b4e2e08d6270b5aacef42e07e44807645bba03cd88c94572eb986
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.6.tgz
+    version: 1.0.6
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "updated valkey to chart 2.4.7 updated helm to 1.85.1"
+        - kind: changed
+          description: "unify worker replica variable with other deployments"
+        - kind: fix
+          description: "check if redis hostname is set in webhook valkey check instead of .Values.valkey.enabled"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.85.1
+    created: "2025-11-12T17:28:39.250015581Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.7
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 4fab6ec4db8d104c8ff188a876cdbea47870b8467cd92d267407b6a0d4c3f3ec
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.5.tgz
+    version: 1.0.5
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "use fullname as prefix instead of suffix"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.81.4
+    created: "2025-11-12T17:28:39.243843699Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.2
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: ffc7c0586d6463b72c86ec91341d4a2d566796d04e5f8e0b74c87a5f4b45e5d6
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.4.tgz
+    version: 1.0.4
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: "fixed helm upgrade requires valkey.password 1.0.0-beta2 -> 1.0.2"
+        - kind: changed
+          description: "update valkey dependency to chart version 2.4.2 and app version 8.0.2"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.81.4
+    created: "2025-11-12T17:28:39.237551031Z"
+    dependencies:
+    - condition: valkey.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.2
+    description: Helm Chart for deploying n8n on Kubernetes, a fair-code workflow
+      automation platform with native AI capabilities for technical teams. Easily
+      automate tasks across different services.
+    digest: 40643a6462f766db7b343bb88c6747188d3c9db729b9683c5583be7642b4d208
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.3.tgz
+    version: 1.0.3
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "This helmchart has a new values.yaml config, not backwards compatible."
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.80.5
+    created: "2025-11-12T17:28:39.231166451Z"
+    dependencies:
+    - condition: redis.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.4.1
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 262a02b27fb0089c0cd2a6fefea8c46be616a0a03f215f4078f3af97a35e5512
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.2.tgz
+    version: 1.0.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "Add default port to worker, deployment and webhook when undefined"
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 1.76.1
+    created: "2025-11-12T17:28:39.224915625Z"
+    dependencies:
+    - condition: redis.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.2.3
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 5ef59d51cc422fc79a374c7274a33b5b0b29acfcba3a10cdf0db32c43437a4b4
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.1.tgz
+    version: 1.0.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: "Major chart redesign and also update to n8n version 1.74.1. This version is not compatible with the previous version. Please read the release notes for more details."
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 1.76.1
+    created: "2025-11-12T17:28:39.218836994Z"
+    dependencies:
+    - condition: redis.enabled
+      name: valkey
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 2.2.3
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: d3667040284230ce86da0ab9ef8ae2517ca0a7280e8baa8bf605bece4ccd3e2b
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - email: contact@8gears.com
+      name: 8gears
+      url: https://github.com/8gears
+    - email: _@8gears.com
+      name: n8n
+      url: https://github.com/n8n-io
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-1.0.0.tgz
+    version: 1.0.0
+  - annotations:
+      artifacthub.io/changes: "- kind: added\n  description: \"Add lifecycle configuration
+        for main deployment (#30) by tomaszkiewicz\"\n  links:\n    - name: GitHub
+        PR\n      url: https://github.com/8gears/n8n-helm-chart/pull/30    \n- kind:
+        changed\n  description: \"Updated App Version to 0.210.0\"\n- kind: added\n
+        \ description: \"Support for dedicated Workers and Webhooks Instances by Stefan
+        Warnat aka swarnat\"\n  links:\n    - name: GitHub PR\n      url: https://github.com/8gears/n8n-helm-chart/pull/24\n
+        \   - name: \"Stefan Warnat aka @swarnat\"\n      url: https://github.com/swarnat\n"
+    apiVersion: v2
+    appVersion: 0.217.1
+    created: "2025-11-12T17:28:39.212625507Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.2.0
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 8b11edfa0b08aaa526f1977472d771bee18edcccca759ec23c0ce96d6e2b2b36
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 0.210.0
+    created: "2025-11-12T17:28:39.207377894Z"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.2.0
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: cbb3f0155fffa9f47f66335a915771eeeb1ccdcb35060cebe496de68d3c4c7b4
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://github.com/n8n-io/n8n
+    - https://n8n.io/
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 0.209.4
+    created: "2025-11-12T17:28:39.201873183Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 7a0313759a41e370dd57ea9cae60977420fcb5cce8af28062a2657e4a28389c8
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 0.111.0
+    created: "2025-11-12T17:28:39.201172823Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: ff1346c193fbf191da01b94b6180d0a9a78822ed391484d9ff8f27bb3c907463
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 0.110.3
+    created: "2025-11-12T17:28:39.200216074Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 26af10477f9a6c4548036c69afe32a5f6386322a193b8ea935d7e451c000c96d
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 0.109.0
+    created: "2025-11-12T17:28:39.199572981Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 8946dff6aac514f9c6ea70ac6fcf0a69f742dc44f917699eed8c3089f17bfe5e
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 0.100.0
+    created: "2025-11-12T17:28:39.198877851Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: c4adbad95abe840ede78cd1ee873be1521689407c9be9e1ca7f6efd6ee1ad6f7
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.94.1
+    created: "2025-11-12T17:28:39.198212838Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: ddc1f6d7e1b9acda712ab5544a1818a41fecc81ad6cf16ac5df09c6d12f955d8
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.94.1
+    created: "2025-11-12T17:28:39.197504994Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: cad576d4dff05b2720e20a4dcd1481af8a434ac2611754da3640ae8752396c5f
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 0.94.1
+    created: "2025-11-12T17:28:39.196792011Z"
+    description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
+      node based Workflow Automation Tool. Easily automate tasks across different
+      services.
+    digest: 94ce496ed709ac8248adb77c98955c675d3f054c109813b86d1d751638d31bc0
+    home: https://github.com/8gears/n8n-helm-chart
+    icon: https://avatars1.githubusercontent.com/u/45487711?s=200&v=4
+    keywords:
+    - Workflow Automation
+    - Workflow
+    - iPaaS
+    - integration-framework
+    - low-code-plattform
+    - low-code
+    maintainers:
+    - name: Vadim Bauer
+    name: n8n
+    sources:
+    - https://n8n.io/
+    - https://github.com/n8n-io/n8n
+    - https://8gears.container-registry.com/harbor/projects/1/helm-charts/n8n/versions/0.1.0
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/n8n-0.1.0.tgz
+    version: 0.1.0
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.19.4
-    created: "2025-11-11T17:55:09.404107953Z"
+    created: "2025-11-12T17:28:39.521562816Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -38,7 +786,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-11T17:55:09.398627066Z"
+    created: "2025-11-12T17:28:39.514624067Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -73,7 +821,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-11T17:55:09.392466111Z"
+    created: "2025-11-12T17:28:39.509062296Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -108,7 +856,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-11T17:55:09.386410513Z"
+    created: "2025-11-12T17:28:39.502630971Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -143,7 +891,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-11T17:55:09.375170582Z"
+    created: "2025-11-12T17:28:39.491359299Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -178,7 +926,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.18.2
-    created: "2025-11-11T17:55:09.36362859Z"
+    created: "2025-11-12T17:28:39.479664326Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -213,7 +961,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2025-11-11T17:55:09.353239931Z"
+    created: "2025-11-12T17:28:39.468983263Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -248,7 +996,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.342039324Z"
+    created: "2025-11-12T17:28:39.457661709Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -283,7 +1031,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.330162704Z"
+    created: "2025-11-12T17:28:39.445679864Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -318,7 +1066,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.319429407Z"
+    created: "2025-11-12T17:28:39.434782658Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -353,7 +1101,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.307388852Z"
+    created: "2025-11-12T17:28:39.424131987Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -388,7 +1136,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.296148469Z"
+    created: "2025-11-12T17:28:39.41332693Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -423,7 +1171,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-11T17:55:09.284597978Z"
+    created: "2025-11-12T17:28:39.401835032Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -458,7 +1206,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-11T17:55:09.274074137Z"
+    created: "2025-11-12T17:28:39.390150596Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -493,7 +1241,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-11T17:55:09.263729522Z"
+    created: "2025-11-12T17:28:39.379509929Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -528,7 +1276,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2025-11-11T17:55:09.252685429Z"
+    created: "2025-11-12T17:28:39.368243479Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -563,7 +1311,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.241217294Z"
+    created: "2025-11-12T17:28:39.356519788Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -598,7 +1346,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.23082616Z"
+    created: "2025-11-12T17:28:39.345465983Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -633,7 +1381,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.220407494Z"
+    created: "2025-11-12T17:28:39.334317953Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -668,7 +1416,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.209867342Z"
+    created: "2025-11-12T17:28:39.322976936Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -703,7 +1451,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.198286482Z"
+    created: "2025-11-12T17:28:39.312455999Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -738,7 +1486,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.187059404Z"
+    created: "2025-11-12T17:28:39.301989942Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -773,7 +1521,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-11T17:55:09.176692181Z"
+    created: "2025-11-12T17:28:39.29145117Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -806,4 +1554,4 @@ entries:
     urls:
     - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-11T17:55:09.164925488Z"
+generated: "2025-11-12T17:28:39.194768817Z"
