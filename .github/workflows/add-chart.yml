@@ -68,4 +68,24 @@ jobs:
             exit 0
           fi
           git commit -m "chore: add chart ${{ github.event.inputs.chart_url }} to tracked.txt"
+
+      - name: Update README.md "Currently deployed" section
+        if: steps.add_to_list.outputs.added == 'true'
+        run: |
+          chart_url="${{ github.event.inputs.chart_url }}"
+          chart_name=$(basename "$chart_url")
+          entry="${chart_name} from the [${$chart_url} Repository](${$chart_url})."
+          if ! grep -Fq "$entry" README.md; then
+            awk -v entry="$entry" '/^## Currently deployed/ {print; print entry; next} 1' README.md > README.md.tmp && mv README.md.tmp README.md
+          fi
+          git add README.md
+          git commit -m "docs: update Currently deployed section for $chart_name"
           git push
+
+      - name: Trigger update-charts.yml
+        if: steps.add_to_list.outputs.added == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+        run: |
+          gh workflow run "Update Charts Daily"
+
