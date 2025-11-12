@@ -20,7 +20,8 @@ do
   cd charts
   chartName="$(basename "$repo")"
   echo "Updating $repo (Chart: $chartName)"
-  oras repo tags codeberg.org/wrenix/helm-charts/paperless-ngx | grep -Eo '[0-9]\.[0-9]\.[0-9]' | while read -r tag
+  repo_no_prefix="${repo#oci://}"
+  oras repo tags "$repo_no_prefix" | grep -Eo '^[0-9]\.[0-9]\.[0-9]$' | sort -nr | while read -r tag
   do
     echo "Found tag $tag in remote repo."
     if ! localCacheExists "$chartName" "$tag"
