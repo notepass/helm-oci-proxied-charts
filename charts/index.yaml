@@ -3,7 +3,7 @@ entries:
   gha-runner-scale-set-controller:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-11-13T16:59:47.086098034Z"
+    created: "2025-11-19T03:21:57.13816181Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: fe2d9698a14f34b8ebfb07c7ddad4753e9f10873f4dc36c0d838c91190773641
     home: https://github.com/actions/actions-runner-controller
@@ -19,7 +19,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2025-11-13T16:59:47.079351125Z"
+    created: "2025-11-19T03:21:57.131498662Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: ab621113b5684bae35736fc63b7ffe83f0aa895672670e9b3a953ea4fc67219d
     home: https://github.com/actions/actions-runner-controller
@@ -35,7 +35,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-11-13T16:59:47.072564071Z"
+    created: "2025-11-19T03:21:57.124690948Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 294d1843b98e135adabe9bdc6e3eed326655f6b9f76db8fc8255c9d86499ae2d
     home: https://github.com/actions/actions-runner-controller
@@ -51,7 +51,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-11-13T16:59:47.065753462Z"
+    created: "2025-11-19T03:21:57.117923021Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: cce2a0efa8710f71665890426398a6562ff3dbb2b48133b55d85ee885afeff04
     home: https://github.com/actions/actions-runner-controller
@@ -67,7 +67,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.3
-    created: "2025-11-13T16:59:47.058880919Z"
+    created: "2025-11-19T03:21:57.111037181Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 98ce26801a8744840bb34430a62b41ec353e89802c4e323676bb461aad5c511d
     home: https://github.com/actions/actions-runner-controller
@@ -83,7 +83,7 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2025-11-13T16:59:47.052668914Z"
+    created: "2025-11-19T03:21:57.104481299Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 61dc0d70802f0e53743d05ace4b1a5a851772c549a234f928253d9247c690320
     home: https://github.com/actions/actions-runner-controller
@@ -99,7 +99,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2025-11-13T16:59:47.046591388Z"
+    created: "2025-11-19T03:21:57.097765372Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 4f513abb52fb89841d9e109672798d659dc155861b7ca14107378c258acacc02
     home: https://github.com/actions/actions-runner-controller
@@ -115,7 +115,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2025-11-13T16:59:47.04056081Z"
+    created: "2025-11-19T03:21:57.09156214Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 67e24c6fc8c047534a4e6edc452da15b4891d2efbaa79319a2dda05fcb489464
     home: https://github.com/actions/actions-runner-controller
@@ -131,7 +131,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2025-11-13T16:59:47.034321677Z"
+    created: "2025-11-19T03:21:57.085235903Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 7e1927ccf544d69d82b84ecb1e002a8a8ad6c295b207b5d37015918ffa5edd94
     home: https://github.com/actions/actions-runner-controller
@@ -147,7 +147,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.1
-    created: "2025-11-13T16:59:47.028330312Z"
+    created: "2025-11-19T03:21:57.078464376Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 51591802a6b14f5f22f92db668e4a5a80fd196d1343ddb4d4bcbd7a5f89b0d6f
     home: https://github.com/actions/actions-runner-controller
@@ -163,7 +163,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-11-13T16:59:47.022099301Z"
+    created: "2025-11-19T03:21:57.071493828Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 2f55d5ff6a9b7132edb2a286d47627a45e807d1dbba580c8289627ef1c0c96b5
     home: https://github.com/actions/actions-runner-controller
@@ -179,7 +179,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2025-11-13T16:59:47.015887307Z"
+    created: "2025-11-19T03:21:57.064988989Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 50564d2c3718404b212d5f5d5f120b891f7f5ebf5f2d6717a80d39747ea3c492
     home: https://github.com/actions/actions-runner-controller
@@ -195,7 +195,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2025-11-13T16:59:47.011444272Z"
+    created: "2025-11-19T03:21:57.060874679Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 663ae5ebd98bfff730357de2eab265bd8f380e6ce7e8b39569fe1aec92f077df
     home: https://github.com/actions/actions-runner-controller
@@ -211,7 +211,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2025-11-13T16:59:47.006930596Z"
+    created: "2025-11-19T03:21:57.056300543Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 32c7a488bb5b1bf58785e6cc7070f4715e03fa6714072529e1c94f23b864a7e7
     home: https://github.com/actions/actions-runner-controller
@@ -227,7 +227,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-11-13T16:59:47.002958638Z"
+    created: "2025-11-19T03:21:57.051911499Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 304dfaa293badcfacfa557490c144fd9e34decc406236dd8a7e803cc47766cc2
     home: https://github.com/actions/actions-runner-controller
@@ -249,7 +249,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.116.2
-    created: "2025-11-13T16:59:47.168566771Z"
+    created: "2025-11-19T03:21:57.222384973Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -292,7 +292,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.99.1
-    created: "2025-11-13T16:59:47.162321836Z"
+    created: "2025-11-19T03:21:57.216260123Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -335,7 +335,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.86.0
-    created: "2025-11-13T16:59:47.156357442Z"
+    created: "2025-11-19T03:21:57.210705561Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -376,7 +376,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-11-13T16:59:47.150205107Z"
+    created: "2025-11-19T03:21:57.204171939Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -417,7 +417,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-11-13T16:59:47.144691932Z"
+    created: "2025-11-19T03:21:57.197881959Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -462,7 +462,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-11-13T16:59:47.138387727Z"
+    created: "2025-11-19T03:21:57.191665715Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -503,7 +503,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2025-11-13T16:59:47.132140726Z"
+    created: "2025-11-19T03:21:57.185193837Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -546,7 +546,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2025-11-13T16:59:47.126265619Z"
+    created: "2025-11-19T03:21:57.179781841Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -587,7 +587,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.80.5
-    created: "2025-11-13T16:59:47.120458808Z"
+    created: "2025-11-19T03:21:57.173428457Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -628,7 +628,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2025-11-13T16:59:47.114324316Z"
+    created: "2025-11-19T03:21:57.16697441Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -669,7 +669,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2025-11-13T16:59:47.108302896Z"
+    created: "2025-11-19T03:21:57.160828205Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -713,7 +713,7 @@ entries:
         \   - name: \"Stefan Warnat aka @swarnat\"\n      url: https://github.com/swarnat\n"
     apiVersion: v2
     appVersion: 0.217.1
-    created: "2025-11-13T16:59:47.101924772Z"
+    created: "2025-11-19T03:21:57.15451767Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -744,7 +744,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.210.0
-    created: "2025-11-13T16:59:47.096089108Z"
+    created: "2025-11-19T03:21:57.149361052Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -775,7 +775,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.209.4
-    created: "2025-11-13T16:59:47.09139134Z"
+    created: "2025-11-19T03:21:57.143679302Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -802,7 +802,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.111.0
-    created: "2025-11-13T16:59:47.090717547Z"
+    created: "2025-11-19T03:21:57.143010543Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -829,7 +829,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.110.3
-    created: "2025-11-13T16:59:47.090026351Z"
+    created: "2025-11-19T03:21:57.142248779Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -856,7 +856,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.109.0
-    created: "2025-11-13T16:59:47.089355454Z"
+    created: "2025-11-19T03:21:57.141594616Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -883,7 +883,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.100.0
-    created: "2025-11-13T16:59:47.088721174Z"
+    created: "2025-11-19T03:21:57.140927058Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -910,7 +910,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-11-13T16:59:47.088079109Z"
+    created: "2025-11-19T03:21:57.140206662Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -937,7 +937,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-11-13T16:59:47.087442195Z"
+    created: "2025-11-19T03:21:57.139518836Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -964,7 +964,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-11-13T16:59:47.086793758Z"
+    created: "2025-11-19T03:21:57.13885232Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -991,8 +991,78 @@ entries:
     version: 0.1.0
   paperless-ngx:
   - apiVersion: v2
+    appVersion: 2.19.6
+    created: "2025-11-19T03:21:57.476462273Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://docker.io/bitnamicharts
+      version: ^16.5.6
+    - condition: valkey.internal
+      name: valkey
+      repository: https://valkey.io/valkey-helm/
+      version: 0.8.1
+    description: A document management system that transforms your physical documents
+      into a searchable online archive so you can keep, well, less paper.
+    digest: 2813676b157edea61463d311154f33c78056232919067938419a1c5a90cc9dab
+    home: https://wrenix.eu/docs/helm-charts/paperless-ngx/
+    icon: https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/svg/square.svg
+    keywords:
+    - paperless
+    - paperless-ng
+    - paperless-ngx
+    - dms
+    - document
+    maintainers:
+    - name: WrenIX
+      url: https://wrenix.eu
+    name: paperless-ngx
+    sources:
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://git.chaos.fyi/wrenix/helm-charts/src/branch/main/paperless-ngx
+    - https://codeberg.org/wrenix/helm-charts/src/branch/main/paperless-ngx
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.3.4.tgz
+    version: 0.3.4
+  - apiVersion: v2
+    appVersion: 2.19.6
+    created: "2025-11-19T03:21:57.470709832Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://docker.io/bitnamicharts
+      version: ^16.5.6
+    - condition: valkey.internal
+      name: valkey
+      repository: https://valkey.io/valkey-helm/
+      version: 0.7.7
+    description: A document management system that transforms your physical documents
+      into a searchable online archive so you can keep, well, less paper.
+    digest: 61366f94455b5d63d024994cecaf88cd16706bdfaa3b84cfef87853ff205b1f7
+    home: https://wrenix.eu/docs/helm-charts/paperless-ngx/
+    icon: https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/svg/square.svg
+    keywords:
+    - paperless
+    - paperless-ng
+    - paperless-ngx
+    - dms
+    - document
+    maintainers:
+    - name: WrenIX
+      url: https://wrenix.eu
+    name: paperless-ngx
+    sources:
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://git.chaos.fyi/wrenix/helm-charts/src/branch/main/paperless-ngx
+    - https://codeberg.org/wrenix/helm-charts/src/branch/main/paperless-ngx
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
     appVersion: 2.19.4
-    created: "2025-11-13T16:59:47.409819017Z"
+    created: "2025-11-19T03:21:57.464184244Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1027,7 +1097,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-13T16:59:47.403265588Z"
+    created: "2025-11-19T03:21:57.457644604Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1062,7 +1132,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-11-13T16:59:47.39662784Z"
+    created: "2025-11-19T03:21:57.451459435Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1097,7 +1167,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-13T16:59:47.391285213Z"
+    created: "2025-11-19T03:21:57.445992387Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1132,7 +1202,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-11-13T16:59:47.379364891Z"
+    created: "2025-11-19T03:21:57.434897314Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1167,7 +1237,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.18.2
-    created: "2025-11-13T16:59:47.3688644Z"
+    created: "2025-11-19T03:21:57.423576838Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1202,7 +1272,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2025-11-13T16:59:47.358082683Z"
+    created: "2025-11-19T03:21:57.411715359Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1237,7 +1307,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.347505709Z"
+    created: "2025-11-19T03:21:57.40083423Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1272,7 +1342,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.336527381Z"
+    created: "2025-11-19T03:21:57.389417188Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1307,7 +1377,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.324574367Z"
+    created: "2025-11-19T03:21:57.377190348Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1342,7 +1412,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.31262999Z"
+    created: "2025-11-19T03:21:57.366301016Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1377,7 +1447,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.301282703Z"
+    created: "2025-11-19T03:21:57.354568846Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1412,7 +1482,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-11-13T16:59:47.290026816Z"
+    created: "2025-11-19T03:21:57.342533059Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1447,7 +1517,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-13T16:59:47.279402303Z"
+    created: "2025-11-19T03:21:57.331796542Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1482,7 +1552,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-11-13T16:59:47.268833925Z"
+    created: "2025-11-19T03:21:57.321162057Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1517,7 +1587,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2025-11-13T16:59:47.258537584Z"
+    created: "2025-11-19T03:21:57.310475561Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1552,7 +1622,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.248117943Z"
+    created: "2025-11-19T03:21:57.299880508Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1587,7 +1657,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.237709451Z"
+    created: "2025-11-19T03:21:57.288869637Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1622,7 +1692,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.223155389Z"
+    created: "2025-11-19T03:21:57.277069001Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1657,7 +1727,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.21178951Z"
+    created: "2025-11-19T03:21:57.265927296Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1692,7 +1762,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.200711844Z"
+    created: "2025-11-19T03:21:57.255240221Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1727,7 +1797,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.189481484Z"
+    created: "2025-11-19T03:21:57.244199491Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1762,7 +1832,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-11-13T16:59:47.179059959Z"
+    created: "2025-11-19T03:21:57.232839251Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1795,4 +1865,4 @@ entries:
     urls:
     - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-13T16:59:46.998293893Z"
+generated: "2025-11-19T03:21:57.042143702Z"
