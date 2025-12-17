@@ -1,3 +1,4 @@
 oci://codeberg.org/wrenix/helm-charts/paperless-ngx
 oci://8gears.container-registry.com/library/n8n
 oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
+oci://code.forgejo.org/forgejo-helm/forgejo
