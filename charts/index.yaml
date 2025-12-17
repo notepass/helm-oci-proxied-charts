@@ -1,9 +1,3894 @@
 apiVersion: v1
 entries:
+  forgejo:
+  - apiVersion: v2
+    appVersion: 8.0.3
+    created: "2025-12-17T09:52:04.070768863Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.22.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.32
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.29
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.4
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.1.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: f8a63727d1a169eb12fe813e833c4c19b58317679d70b9b686416b14fc561b88
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-9.0.0.tgz
+    version: 9.0.0
+  - apiVersion: v2
+    appVersion: 8.0.3
+    created: "2025-12-17T09:52:04.050739249Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.32
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.29
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.4
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.1.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 64a5f763e88308480ff3e5250ab6048a4761b1c1fd75bed8fb6416cbf66003d3
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.2.3.tgz
+    version: 8.2.3
+  - apiVersion: v2
+    appVersion: 8.0.3
+    created: "2025-12-17T09:52:04.030700193Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.28
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.23
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.0.5
+    description: Forgejo Helm chart for Kubernetes
+    digest: af13ef5ec4b43cf7042e824b6bb425a84a726f2584a1ff924419d2d3fdd2a758
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.2.2.tgz
+    version: 8.2.2
+  - apiVersion: v2
+    appVersion: 8.0.2
+    created: "2025-12-17T09:52:04.009666347Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.26
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.18
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.0.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 585706de87ca940444c2bb6b1883814c0f770b919e3ee4fdb4c7aedb8f808b9c
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.2.1.tgz
+    version: 8.2.1
+  - apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-12-17T09:52:03.989738707Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.23
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 20.0.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 1bbdcaf88d91b697e8081192598d9e109373f06f3319597dde84991e4cfc0e09
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.2.0.tgz
+    version: 8.2.0
+  - apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-12-17T09:52:03.969800535Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.21
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.3.0
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 19.6.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 9b2bc1fda36d8de85d628f5dbc35ffdf612ca6fcc2981d8ea7b9f6cb1d6cd404
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.1.2.tgz
+    version: 8.1.2
+  - apiVersion: v2
+    appVersion: 8.0.1
+    created: "2025-12-17T09:52:03.950844206Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.3.0
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 19.6.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 6a8d171177b64272475b360dd8106dad0423a2089d5eeabb61aa9fb2dd641db0
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.1.1.tgz
+    version: 8.1.1
+  - apiVersion: v2
+    appVersion: 8.0.0
+    created: "2025-12-17T09:52:03.931818276Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 19.6.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: e2ac39e2defcbf4709e7071468dc4ede1f9b315c81f3eb6224f7374a0421e3ed
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.1.0.tgz
+    version: 8.1.0
+  - apiVersion: v2
+    appVersion: 8.0.0
+    created: "2025-12-17T09:52:03.912240347Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    description: Forgejo Helm chart for Kubernetes
+    digest: 3b9f849fcff03a5422156b9344fe2216e8153f73d251271c0c76060997579f4d
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.0.1.tgz
+    version: 8.0.1
+  - apiVersion: v2
+    appVersion: 8.0.0
+    created: "2025-12-17T09:52:03.897602605Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    description: Forgejo Helm chart for Kubernetes
+    digest: b5eeeb23b9190a85bc8c564d2abefaa503d6d7b3765aef64e60fede0e5238d4b
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v2
+    appVersion: 7.0.13
+    created: "2025-12-17T09:52:03.882414218Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 14.3.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 11.4.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 40dfa180389801b82b5364089f40ea8ab0884cb805817beb4e1c9d043eed8870
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.9.tgz
+    version: 7.1.9
+  - apiVersion: v2
+    appVersion: 7.0.13
+    created: "2025-12-17T09:52:03.867950938Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 14.3.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 11.4.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 3d4b606b3a5ab99f0951bde283a16d508cbf38947109a8550bdb29f2562d5d61
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.8.tgz
+    version: 7.1.8
+  - apiVersion: v2
+    appVersion: 7.0.12
+    created: "2025-12-17T09:52:03.853028766Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 14.3.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      version: 11.4.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 0245986efb9c7e41feb26f4a8651af9597393c262ea470b7abe366f4305493e3
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.7.tgz
+    version: 7.1.7
+  - apiVersion: v2
+    appVersion: 7.0.12
+    created: "2025-12-17T09:52:03.83828471Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.1.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: ab825f7071ce359090bf642bce2a65ca6884337c4225de619b12f094482f5afd
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.6.tgz
+    version: 7.1.6
+  - apiVersion: v2
+    appVersion: 7.0.11
+    created: "2025-12-17T09:52:03.823213702Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.7
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.7
+    description: Forgejo Helm chart for Kubernetes
+    digest: 2dc85de58ad0e27541c5245c3ec1dc3c73991c47d11e845d91ff37909b12d780
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.5.tgz
+    version: 7.1.5
+  - apiVersion: v2
+    appVersion: 7.0.10
+    created: "2025-12-17T09:52:03.808978531Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.5
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: dc7d3ffcf6d451245323c2383003a23729ebd040b7cfa290881c7e89e1dc6241
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.4.tgz
+    version: 7.1.4
+  - apiVersion: v2
+    appVersion: 7.0.10
+    created: "2025-12-17T09:52:03.793994483Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.38
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.4
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: 914e2af4d88857148fb7c3dca7e94557d8f1898348749512417eead3197af0a0
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.3.tgz
+    version: 7.1.3
+  - apiVersion: v2
+    appVersion: 7.0.9
+    created: "2025-12-17T09:52:03.779401674Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.28
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.23
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 518b92dfb1011c3d5d98f8f9afd1bebf112324861ee714814708453fe1876900
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.2.tgz
+    version: 7.1.2
+  - apiVersion: v2
+    appVersion: 7.0.8
+    created: "2025-12-17T09:52:03.764388526Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.26
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.18
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 41958771e5558f699dcc8c06b7d355be23678567120d27479307b8703d6cadb6
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.1.tgz
+    version: 7.1.1
+  - apiVersion: v2
+    appVersion: 7.0.7
+    created: "2025-12-17T09:52:03.749963289Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.23
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.0.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: ae817875622f404457f96ab886cde821d571b1f465d807b2ef115ad08511a890
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.1.0.tgz
+    version: 7.1.0
+  - apiVersion: v2
+    appVersion: 7.0.7
+    created: "2025-12-17T09:52:03.73607392Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.21
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.3.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 7a7159b3da54846072692afd4dab6c137eee8bcc3e39eed202551ea600b63ab7
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.7.tgz
+    version: 7.0.7
+  - apiVersion: v2
+    appVersion: 7.0.7
+    created: "2025-12-17T09:52:03.72060196Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.21
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.3.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 3c15ad818117c100dd982f2186705f2dede2c1d29226133cdb203298d703c8a9
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.6.tgz
+    version: 7.0.6
+  - apiVersion: v2
+    appVersion: 7.0.7
+    created: "2025-12-17T09:52:03.705484536Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.16
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.3.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 0d30c5cfa7e303ad87872731c071aaece1fd88ac0671de9224a8eedf3fbc9e1b
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.5.tgz
+    version: 7.0.5
+  - apiVersion: v2
+    appVersion: 7.0.6
+    created: "2025-12-17T09:52:03.691282099Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    description: Forgejo Helm chart for Kubernetes
+    digest: 858c1f48144da37eabc01935dd67659212364c954ea053762af2b87c00fdf4bb
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.4.tgz
+    version: 7.0.4
+  - apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-12-17T09:52:03.676306712Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    description: Forgejo Helm chart for Kubernetes
+    digest: a645834bfe6f0dbb1544f9379ee5590f5cf5d8d5a542588206b45e74f4dfddc2
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.3.tgz
+    version: 7.0.3
+  - apiVersion: v2
+    appVersion: 7.0.5
+    created: "2025-12-17T09:52:03.661212154Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.13
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: 27309fd51472612bb5097e12513f66eaa1d9eb7c6defd057d2032c41f325a97a
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.2.tgz
+    version: 7.0.2
+  - apiVersion: v2
+    appVersion: 7.0.4
+    created: "2025-12-17T09:52:03.647340632Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.5
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 280f650726bcff700fa54180eb9133433d6cf43d4d15ca730cb915e366f38d09
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.1.tgz
+    version: 7.0.1
+  - apiVersion: v2
+    appVersion: 7.0.3
+    created: "2025-12-17T09:52:03.632338802Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: c020e71623cdc600bf86bfeb5f8dc22b8b13eaf7f1e1134a8da86c4f37529961
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-7.0.0.tgz
+    version: 7.0.0
+  - apiVersion: v2
+    appVersion: 7.0.3
+    created: "2025-12-17T09:52:03.617184606Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: ee760d0e172f1904e7339f9489b3decd1372855adabc42adf07a824fad068d19
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.1.1.tgz
+    version: 6.1.1
+  - apiVersion: v2
+    appVersion: 7.0.3
+    created: "2025-12-17T09:52:03.602114711Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.4.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 3b3bde9f3a25461dfcaba70386a747955172ae5907608c0d25ca23d6bdfe3ff2
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.1.0.tgz
+    version: 6.1.0
+  - apiVersion: v2
+    appVersion: 7.0.3
+    created: "2025-12-17T09:52:03.588114078Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.4.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: b2c200761def735bb3c39d5b33382b972b72ab1fa3a6ecf6f214ce86d4e9da12
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.8.tgz
+    version: 6.0.8
+  - apiVersion: v2
+    appVersion: 7.0.3
+    created: "2025-12-17T09:52:03.573247923Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.3.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.17
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: d02c35da4f20f689752761e62412365812f29552b6fbca770cf81f6acf3b5f76
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.7.tgz
+    version: 6.0.7
+  - apiVersion: v2
+    appVersion: 7.0.2
+    created: "2025-12-17T09:52:03.55836227Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.9
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 50d66901bc21342afcc831fa7f0897cc11ed96ac10daf077c26448d9da780f2a
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.6.tgz
+    version: 6.0.6
+  - apiVersion: v2
+    appVersion: 7.0.2
+    created: "2025-12-17T09:52:03.543755024Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.8
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 2b05ec738a66e1e60f4e1f21d25787afb22c3c4c4c460fd9b0013fb812a4e125
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.5.tgz
+    version: 6.0.5
+  - apiVersion: v2
+    appVersion: 7.0.1
+    created: "2025-12-17T09:52:03.528752251Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.8
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.10
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 756fa5552e1eae6f31771c08b25b2ed294a88e1b4077b405d89ff86773347caf
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.3.tgz
+    version: 6.0.3
+  - apiVersion: v2
+    appVersion: 7.0.1
+    created: "2025-12-17T09:52:03.514175063Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.6
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: a904987220f01b22023b3310bb2de00cd7c813dcd348dce0b2156e6733f4f70b
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.2.tgz
+    version: 6.0.2
+  - apiVersion: v2
+    appVersion: 7.0.1
+    created: "2025-12-17T09:52:03.499576676Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.6
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 48467a98a714ac1d051468a3673b20e4311c855ee3ef076f13d2dc3db1d10769
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v2
+    appVersion: 7.0.0
+    created: "2025-12-17T09:52:03.485288487Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.5
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: e7b6549fd4d83afee97edbb5969b657d827a9b476cc9d93e6a96f9e9de594329
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-6.0.0.tgz
+    version: 6.0.0
+  - apiVersion: v2
+    appVersion: 1.21.11-2
+    created: "2025-12-17T09:52:03.470730307Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.20
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.14
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.9
+    description: Forgejo Helm chart for Kubernetes
+    digest: 161cce6a2f21df58949fe4f9730a828d40ac6a2ff4cffa6098a51c5705ef10d5
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.1.3.tgz
+    version: 5.1.3
+  - apiVersion: v2
+    appVersion: 1.21.11-2
+    created: "2025-12-17T09:52:03.456729775Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.5
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: ce4a9c4d16ee7e512bbb675a91c3b955db32a59ecbda25719c20696e98f9ff29
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.1.2.tgz
+    version: 5.1.2
+  - apiVersion: v2
+    appVersion: 1.21.11-1
+    created: "2025-12-17T09:52:03.442957321Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.5.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 813f768aa29b10135f10c05ed7b86e0d89c3db704b78dd9bf3a74d02830933a0
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.1.1.tgz
+    version: 5.1.1
+  - apiVersion: v2
+    appVersion: 1.21.11-1
+    created: "2025-12-17T09:52:03.428240285Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.4.2
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.1.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: cb16aaab83669236fda0ec2d5e18568fb46c78389b581ad0ad8d4ba26edf8423
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.1.0.tgz
+    version: 5.1.0
+  - apiVersion: v2
+    appVersion: 1.21.11-1
+    created: "2025-12-17T09:52:03.413781777Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.4
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 361cc74a5cd3ecb516abc11f7b86119df3ca5abe8db48b990fbe377c8e50bb87
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.5.tgz
+    version: 5.0.5
+  - apiVersion: v2
+    appVersion: 1.21.11-0
+    created: "2025-12-17T09:52:03.399333544Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 7f58509f684e689571617609691ff533c0f41fd70f7e7bd9918b2e1134e2e09d
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.4.tgz
+    version: 5.0.4
+  - apiVersion: v2
+    appVersion: 1.21.10-0
+    created: "2025-12-17T09:52:03.384278504Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.2
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: ede402d2e178b56291187e868d89fba0d7dcf8f8827f0117938a92cbb6d530e3
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.3.tgz
+    version: 5.0.3
+  - apiVersion: v2
+    appVersion: 1.21.8-0
+    created: "2025-12-17T09:52:03.369943365Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.2.2
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 9949c1398b44673deaa8c826ec38e1db6f91635601eaccf821c53f28f6823503
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.2.tgz
+    version: 5.0.2
+  - apiVersion: v2
+    appVersion: 1.21.8-0
+    created: "2025-12-17T09:52:03.354750888Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.1.2
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 28f31cf09ea80d98711d3d01db82612759e31e307f62642199d662a5a9439468
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.1.tgz
+    version: 5.0.1
+  - apiVersion: v2
+    appVersion: 1.21.7-0
+    created: "2025-12-17T09:52:03.340717913Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 15.1.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 10.0.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 185b298a323c4ab984a272c888350649653e644845f0b11ec51f473adb24be42
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-5.0.0.tgz
+    version: 5.0.0
+  - apiVersion: v2
+    appVersion: 1.21.7-0
+    created: "2025-12-17T09:52:03.325907508Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.6.1
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.8.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 89bf198d68b6b0cff754a01dc180f449e7bb723da1d773569b0112ae98a38640
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-4.0.3.tgz
+    version: 4.0.3
+  - apiVersion: v2
+    appVersion: 1.21.7-0
+    created: "2025-12-17T09:52:03.311241284Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.3.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.5
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.8.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 87a9e4a0503c4f42a03b1b422b397c0b13c2938cf01e878a4bb4ba0eb36622ae
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-4.0.2.tgz
+    version: 4.0.2
+  - apiVersion: v2
+    appVersion: 1.21.6-0
+    created: "2025-12-17T09:52:03.29696439Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.2
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.6.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: c1a910d331280e257ad2fabd918aa151990c173f0ca9c0e7c6016d1502f0f42b
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-4.0.1.tgz
+    version: 4.0.1
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.283494679Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.6.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 0345d5b1cfb9287be81f7ce01f83967292273ecbea807f90d6b82cadca67f358
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-4.0.0.tgz
+    version: 4.0.0
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.270146426Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.2.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.6.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: c96092553094e4e183da15a3f06dfbad39df9d8dc954cad54a837689cf84fbf1
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-3.0.3.tgz
+    version: 3.0.3
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.255840949Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.5
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.1
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.5.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: f59679d5dd624fad0044f9d889229ae1b9f2005dffe98adea1308166882073f5
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-3.0.2.tgz
+    version: 3.0.2
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.241688606Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.4
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.5.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: f85a95eeb088994318f87ffdcb353d44a46ed8bd0a328b9edeb27756c00673ab
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-3.0.1.tgz
+    version: 3.0.1
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.228717582Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 14.0.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.1.1
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.5.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: d000ef5473a443571f85f6d1d2d6dd6fdc74ebbcdbdb956d7fe4c6f469440acb
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-3.0.0.tgz
+    version: 3.0.0
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.215380135Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.4
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.1.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.5.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 118c7416facc184267c27736e9496d076de64aa457f8e48de9652e31e420b2cf
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
+    appVersion: 1.21.5-0
+    created: "2025-12-17T09:52:03.201203843Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.3
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.8.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.4.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 1c8d054f95d3e1ed37a37dcc0960cce97a8947072b5ab4f9f0fc374ce1ca417e
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.7.tgz
+    version: 1.1.7
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.187173094Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.8.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.3.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 4a5d07c6fdcb0e2f97933cfa1a04551b4e920fc264b1431b7460ad3ee2f4ef18
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.6.tgz
+    version: 1.1.6
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.173052289Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.4.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.7.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.3.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 94bbe0f24844247b86287d58201c43154b537541cd1aad4c71c4d213ed0d000c
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.5.tgz
+    version: 1.1.5
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.158840675Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.3.1
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.7.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.2.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: bc426c0f1e300c7ad01302fa7689cb2f64c356af9dfe8900a684dc382de9192b
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.4.tgz
+    version: 1.1.4
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.145290557Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.3.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.2.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: bcb02e42f7523d6893b2c7406f2c3d316cd9011aa81d0fbee47a3470ed11c81a
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.3.tgz
+    version: 1.1.3
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.130822243Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.3.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.2.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 1adf8b4067ee5b83abc3ea68f709689f49b3379fe3085140a5b2a56be827a29c
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.117658386Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.30
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.2.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: fa6d208db930940f02931c08c3cd062aeaf63266a12d7d12a174da91c02aaa0f
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.1.tgz
+    version: 1.1.1
+  - apiVersion: v2
+    appVersion: 1.21.4-0
+    created: "2025-12-17T09:52:03.104331693Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.30
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: e473a51894b006324dbf1790b0c4d1f6275fe464eccf0edb4af4eb939110fdb2
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.21.3-0
+    created: "2025-12-17T09:52:03.090913697Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.27
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 2159321020f500a30926adc7f0863d9a24856ac96289b34f73b5244c20f5c9ec
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.21.3-0
+    created: "2025-12-17T09:52:03.077739846Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.25
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.3.4
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 0b8945ca9a01905d557eb56e9bf5a8631972f58e198a471fad32c1aed69ed2ba
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.21.2-1
+    created: "2025-12-17T09:52:03.06406689Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.24
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.3.3
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 7f19d456b3e5f8c449580eb1277ba5030f4585655762989a1dfbc4356331ac3f
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.21.2-1
+    created: "2025-12-17T09:52:03.050641516Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.24
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.3.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 7d2051f1321e1d505cf8630f279fa3f89db2ad0b39dbe3b4dd9d4acb38c2dc3a
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    appVersion: 1.21.2-0
+    created: "2025-12-17T09:52:03.037885444Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 13.2.24
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.3.2
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.1.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 96909400b95eb7d8e1077566cb30d30e72dc2c7fe38acb50a5912e1591fa6d73
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.19.4-0
+    created: "2025-12-17T09:52:03.024755004Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.7.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: e0ebd4acc7d671efdad3c13fdfac3efb02a0bbf16dec026f6ac8b36fa175a961
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.9.3.tgz
+    version: 0.9.3
+  - apiVersion: v2
+    appVersion: 1.19.4-0
+    created: "2025-12-17T09:52:03.012670134Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.5
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.8
+    description: Forgejo Helm chart for Kubernetes
+    digest: 03e071ca03593a7e60baf2481d561c03987cc8a742b85dd21a5c3da7de798229
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.9.2.tgz
+    version: 0.9.2
+  - apiVersion: v2
+    appVersion: 1.19.4-0
+    created: "2025-12-17T09:52:03.000551513Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.5
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: a9a1a9a04f8777af45984bf0526caaf41b89801c8dbd9b9c8f7e382da0a420b8
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
+    appVersion: 1.19.4-0
+    created: "2025-12-17T09:52:02.988691333Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: d5c84c911ff26546d1f8dabe2b6be732fd156850d3b92811ce8967a667840779
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 1.19.4-0
+    created: "2025-12-17T09:52:02.976762073Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: 642c7c91d4320f9f8debf52684b17f5fbbce8e9d342c541630598975e52328c0
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.6.tgz
+    version: 0.8.6
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.965974927Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.4
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.6.0
+    description: Forgejo Helm chart for Kubernetes
+    digest: cd9c1e5a8839c279e62f691ae9068a0e4d32e2029aaa0c1281d3caa8ddeb6954
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.5.tgz
+    version: 0.8.5
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.953505713Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.5.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: 08779dbc28dabf1d0a567a8e3a9d9e859742f61cba949f33bd73dce291ccba22
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.4.tgz
+    version: 0.8.4
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.942683071Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.5.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 73875a077d9c5cc1cc72ffe09d219413205048302f3d93712c974f35dd1835f1
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.3.tgz
+    version: 0.8.3
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.931253503Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.5.1
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.5.1
+    description: Forgejo Helm chart for Kubernetes
+    digest: 249c92769c341427ebe1713f2fb3f76c40ae03a41ae721167d4c711d70fcd920
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.2.tgz
+    version: 0.8.2
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.919570201Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.4.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 2b2fd9aab2f52b768b1357e8bc5fa4b39a5b7407e73da2f31725ec8edc4c9403
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.1.tgz
+    version: 0.8.1
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.907361822Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.4.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: 9a20c471f81a850732fb557892f0f526761ad88e33da7ae3fc476fdd6500f8f5
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.89634672Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.4.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.3
+    description: Forgejo Helm chart for Kubernetes
+    digest: e5789f2e7038bd98a7bc3c57b28f8795216fee04bd7da9e4a63158b6a2e55466
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.7.3.tgz
+    version: 0.7.3
+  - apiVersion: v2
+    appVersion: 1.19.3-0
+    created: "2025-12-17T09:52:02.885787731Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.4.1
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 9022abc1bf21321c9e3860c8bdf18f2e7df268edff0530ab089798b6ee3750d4
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.7.2.tgz
+    version: 0.7.2
+  - apiVersion: v2
+    appVersion: 1.19.2-0
+    created: "2025-12-17T09:52:02.875455425Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.4.1
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.4.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: c76bfa5fd6eb3becc3e57803e82c0c21270cf1bf8ae6baade6d7e93b09d729b6
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.7.1.tgz
+    version: 0.7.1
+  - apiVersion: v2
+    appVersion: 1.19.1-0
+    created: "2025-12-17T09:52:02.863787273Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.14
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.8
+    description: Forgejo Helm chart for Kubernetes
+    digest: c139bacce5a01cbd0344ddba8622a2dfbefa2e091a2213b1e71de50119349da6
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.19.0-3
+    created: "2025-12-17T09:52:02.851909147Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.14
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.7
+    description: Forgejo Helm chart for Kubernetes
+    digest: 80b5b7a2903efed2bddc901366ec00707fd6f9926b43e1baa619d17d77cbbcff
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.6.1.tgz
+    version: 0.6.1
+  - apiVersion: v2
+    appVersion: 1.19.0-2
+    created: "2025-12-17T09:52:02.840549503Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.14
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.7
+    description: Forgejo Helm chart for Kubernetes
+    digest: 9bb248a5df6f35fe6dccb9be8622938883e4e375e1045aa9103990d50fddd2fd
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.19.0-2
+    created: "2025-12-17T09:52:02.829720972Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.14
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.7.1
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.7
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.5.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: cae736f92ae0adf91c63bb322a37368d580fb388652c9f3c606832ae40825dcb
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.19.0-2
+    created: "2025-12-17T09:52:02.81438873Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.13
+    - condition: mysql.enabled
+      name: mysql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 9.6.0
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.5
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.5.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 32f7edaca9a875cabd6c07c39e803a0d955c801b332bd9bfd547e20b1a0e4777
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.18.5-0
+    created: "2025-12-17T09:52:02.798432548Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.9
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.5.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.2.2
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.5.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 98371b2ae02973d81e5277e7fb0ed0cc162766d4843e7d7ddc24ad3b2913647b
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.3.3.tgz
+    version: 0.3.3
+  - apiVersion: v2
+    appVersion: 1.18.5-0
+    created: "2025-12-17T09:52:02.782173987Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.9
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.4.9
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.1.15
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.4.7
+    description: Forgejo Helm chart for Kubernetes
+    digest: e189406204ba151ebcef25522d37d6987cffcff251283044a54523fb51abc13f
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.3.2.tgz
+    version: 0.3.2
+  - apiVersion: v2
+    appVersion: 1.18.2-1
+    created: "2025-12-17T09:52:02.766853531Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.5
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.4.8
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.1.11
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.4.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: c7417fed79c203780688e95be57acc9c08f49acb6612e579c4d3585986ec7a57
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v2
+    appVersion: 1.18.1-0
+    created: "2025-12-17T09:52:02.75030472Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.5
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.4.6
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.1.9
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.4.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: edad9344de9823b14026ef40c5d839a4039f00f91084c9f1312a4d63541c234f
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.734272308Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.3
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.4.5
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.1.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.4.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 6cae906c63cd28a8d40c17441693dc1475cf4da6ee874e335c536b9d80338847
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.722895947Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.2
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.4.5
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 12.1.6
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 11.4.2
+    description: Forgejo Helm chart for Kubernetes
+    digest: 6ad5d98a2a835887ba8c9b1dfa61da82c5a1c155aefe9242eaff94cb605708ab
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.711263405Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.3.2
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.3.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: 3df46a16d9a5f0a111ea385fe7783001e9d344ae329727824bd9bb98db9c93f2
+    home: https://forgejo.org/
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.702719069Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.3.2
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/archive-full-index/bitnami
+      version: 9.3.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: 4d4cb737552ab86c43bf5326e22352eb352840f9e4aed9deca6419396aa938c0
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.0.3.tgz
+    version: 0.0.3
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.693878831Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 5.9.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 9.3.6
+    description: Forgejo Helm chart for Kubernetes
+    digest: ba40c15c12e80b5d4f93d76b3ef772a406f9585f7b9fdc8bd8c60287782aca2b
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: 1.18.0-1
+    created: "2025-12-17T09:52:02.685724945Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 5.9.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 9.3.6
+    description: Forgjo Helm chart for Kubernetes
+    digest: 77f91745cd1624d8a608de1ee0bcb607b8e8ca8d6a7804b48379549dea14e58f
+    icon: https://design.codeberg.org/logo-kit/icon.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    name: forgejo
+    sources:
+    - https://codeberg.org/forgejo-contrib/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-0.0.1.tgz
+    version: 0.0.1
   gha-runner-scale-set-controller:
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2025-12-11T03:29:55.187547714Z"
+    created: "2025-12-17T09:52:04.165014688Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: fe2d9698a14f34b8ebfb07c7ddad4753e9f10873f4dc36c0d838c91190773641
     home: https://github.com/actions/actions-runner-controller
@@ -19,7 +3904,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2025-12-11T03:29:55.18073486Z"
+    created: "2025-12-17T09:52:04.157886442Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: ab621113b5684bae35736fc63b7ffe83f0aa895672670e9b3a953ea4fc67219d
     home: https://github.com/actions/actions-runner-controller
@@ -35,7 +3920,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2025-12-11T03:29:55.17392151Z"
+    created: "2025-12-17T09:52:04.151070907Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 294d1843b98e135adabe9bdc6e3eed326655f6b9f76db8fc8255c9d86499ae2d
     home: https://github.com/actions/actions-runner-controller
@@ -51,7 +3936,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2025-12-11T03:29:55.16722475Z"
+    created: "2025-12-17T09:52:04.144262255Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: cce2a0efa8710f71665890426398a6562ff3dbb2b48133b55d85ee885afeff04
     home: https://github.com/actions/actions-runner-controller
@@ -67,7 +3952,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.3
-    created: "2025-12-11T03:29:55.160544166Z"
+    created: "2025-12-17T09:52:04.137427167Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 98ce26801a8744840bb34430a62b41ec353e89802c4e323676bb461aad5c511d
     home: https://github.com/actions/actions-runner-controller
@@ -83,7 +3968,7 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2025-12-11T03:29:55.154346555Z"
+    created: "2025-12-17T09:52:04.130895442Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 61dc0d70802f0e53743d05ace4b1a5a851772c549a234f928253d9247c690320
     home: https://github.com/actions/actions-runner-controller
@@ -99,7 +3984,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2025-12-11T03:29:55.147128188Z"
+    created: "2025-12-17T09:52:04.124424168Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 4f513abb52fb89841d9e109672798d659dc155861b7ca14107378c258acacc02
     home: https://github.com/actions/actions-runner-controller
@@ -115,7 +4000,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2025-12-11T03:29:55.139511736Z"
+    created: "2025-12-17T09:52:04.116662405Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 67e24c6fc8c047534a4e6edc452da15b4891d2efbaa79319a2dda05fcb489464
     home: https://github.com/actions/actions-runner-controller
@@ -131,7 +4016,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2025-12-11T03:29:55.133292008Z"
+    created: "2025-12-17T09:52:04.109322792Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 7e1927ccf544d69d82b84ecb1e002a8a8ad6c295b207b5d37015918ffa5edd94
     home: https://github.com/actions/actions-runner-controller
@@ -147,7 +4032,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.1
-    created: "2025-12-11T03:29:55.125966632Z"
+    created: "2025-12-17T09:52:04.102648503Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 51591802a6b14f5f22f92db668e4a5a80fd196d1343ddb4d4bcbd7a5f89b0d6f
     home: https://github.com/actions/actions-runner-controller
@@ -163,7 +4048,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2025-12-11T03:29:55.119888146Z"
+    created: "2025-12-17T09:52:04.095865267Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 2f55d5ff6a9b7132edb2a286d47627a45e807d1dbba580c8289627ef1c0c96b5
     home: https://github.com/actions/actions-runner-controller
@@ -179,7 +4064,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2025-12-11T03:29:55.113757351Z"
+    created: "2025-12-17T09:52:04.089289262Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 50564d2c3718404b212d5f5d5f120b891f7f5ebf5f2d6717a80d39747ea3c492
     home: https://github.com/actions/actions-runner-controller
@@ -195,7 +4080,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2025-12-11T03:29:55.109538745Z"
+    created: "2025-12-17T09:52:04.084766308Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 663ae5ebd98bfff730357de2eab265bd8f380e6ce7e8b39569fe1aec92f077df
     home: https://github.com/actions/actions-runner-controller
@@ -211,7 +4096,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2025-12-11T03:29:55.105469651Z"
+    created: "2025-12-17T09:52:04.079682111Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 32c7a488bb5b1bf58785e6cc7070f4715e03fa6714072529e1c94f23b864a7e7
     home: https://github.com/actions/actions-runner-controller
@@ -227,7 +4112,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2025-12-11T03:29:55.101196732Z"
+    created: "2025-12-17T09:52:04.075080523Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 304dfaa293badcfacfa557490c144fd9e34decc406236dd8a7e803cc47766cc2
     home: https://github.com/actions/actions-runner-controller
@@ -249,7 +4134,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.122.4
-    created: "2025-12-11T03:29:55.285927107Z"
+    created: "2025-12-17T09:52:04.254809599Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -292,7 +4177,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.122.4
-    created: "2025-12-11T03:29:55.283135981Z"
+    created: "2025-12-17T09:52:04.252816004Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -333,7 +4218,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.116.2
-    created: "2025-12-11T03:29:55.281135833Z"
+    created: "2025-12-17T09:52:04.250827188Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -376,7 +4261,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.99.1
-    created: "2025-12-11T03:29:55.274868912Z"
+    created: "2025-12-17T09:52:04.244180311Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -419,7 +4304,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.86.0
-    created: "2025-12-11T03:29:55.268411834Z"
+    created: "2025-12-17T09:52:04.237876089Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -460,7 +4345,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-12-11T03:29:55.262315254Z"
+    created: "2025-12-17T09:52:04.231324163Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -501,7 +4386,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-12-11T03:29:55.256828428Z"
+    created: "2025-12-17T09:52:04.22467559Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -546,7 +4431,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2025-12-11T03:29:55.250573846Z"
+    created: "2025-12-17T09:52:04.219179691Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -587,7 +4472,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2025-12-11T03:29:55.244398548Z"
+    created: "2025-12-17T09:52:04.212794979Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -630,7 +4515,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2025-12-11T03:29:55.238108395Z"
+    created: "2025-12-17T09:52:04.206281956Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -671,7 +4556,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.80.5
-    created: "2025-12-11T03:29:55.23250841Z"
+    created: "2025-12-17T09:52:04.200429633Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -712,7 +4597,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2025-12-11T03:29:55.2211856Z"
+    created: "2025-12-17T09:52:04.194529737Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -753,7 +4638,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2025-12-11T03:29:55.214953571Z"
+    created: "2025-12-17T09:52:04.188201373Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -797,7 +4682,7 @@ entries:
         \   - name: \"Stefan Warnat aka @swarnat\"\n      url: https://github.com/swarnat\n"
     apiVersion: v2
     appVersion: 0.217.1
-    created: "2025-12-11T03:29:55.208185383Z"
+    created: "2025-12-17T09:52:04.181963657Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -828,7 +4713,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.210.0
-    created: "2025-12-11T03:29:55.202381043Z"
+    created: "2025-12-17T09:52:04.175755227Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -859,7 +4744,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.209.4
-    created: "2025-12-11T03:29:55.19279599Z"
+    created: "2025-12-17T09:52:04.170554469Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -886,7 +4771,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.111.0
-    created: "2025-12-11T03:29:55.192150019Z"
+    created: "2025-12-17T09:52:04.169838912Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -913,7 +4798,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.110.3
-    created: "2025-12-11T03:29:55.191492858Z"
+    created: "2025-12-17T09:52:04.169127122Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -940,7 +4825,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.109.0
-    created: "2025-12-11T03:29:55.190831488Z"
+    created: "2025-12-17T09:52:04.168390646Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -967,7 +4852,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.100.0
-    created: "2025-12-11T03:29:55.190191979Z"
+    created: "2025-12-17T09:52:04.167672665Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -994,7 +4879,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-12-11T03:29:55.189526462Z"
+    created: "2025-12-17T09:52:04.167015236Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -1021,7 +4906,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-12-11T03:29:55.188851928Z"
+    created: "2025-12-17T09:52:04.166338692Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -1048,7 +4933,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2025-12-11T03:29:55.18820753Z"
+    created: "2025-12-17T09:52:04.165692324Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -1076,7 +4961,7 @@ entries:
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.20.1
-    created: "2025-12-11T03:29:55.550123851Z"
+    created: "2025-12-17T09:52:04.518401612Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1111,7 +4996,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: 2.20.0
-    created: "2025-12-11T03:29:55.543775918Z"
+    created: "2025-12-17T09:52:04.511644266Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1146,7 +5031,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: 2.19.6
-    created: "2025-12-11T03:29:55.537374722Z"
+    created: "2025-12-17T09:52:04.504875818Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1181,7 +5066,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 2.19.6
-    created: "2025-12-11T03:29:55.531659345Z"
+    created: "2025-12-17T09:52:04.498184038Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1216,7 +5101,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 2.19.4
-    created: "2025-12-11T03:29:55.525195489Z"
+    created: "2025-12-17T09:52:04.492653965Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1251,7 +5136,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-12-11T03:29:55.518669385Z"
+    created: "2025-12-17T09:52:04.485864108Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1286,7 +5171,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2025-12-11T03:29:55.51239196Z"
+    created: "2025-12-17T09:52:04.479541755Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1321,7 +5206,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-12-11T03:29:55.506193917Z"
+    created: "2025-12-17T09:52:04.474072585Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1356,7 +5241,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2025-12-11T03:29:55.495667256Z"
+    created: "2025-12-17T09:52:04.46218415Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1391,7 +5276,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.18.2
-    created: "2025-12-11T03:29:55.484986616Z"
+    created: "2025-12-17T09:52:04.451414824Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1426,7 +5311,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2025-12-11T03:29:55.474364479Z"
+    created: "2025-12-17T09:52:04.440685647Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1461,7 +5346,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.46380945Z"
+    created: "2025-12-17T09:52:04.430055627Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1496,7 +5381,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.452984199Z"
+    created: "2025-12-17T09:52:04.41850348Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1531,7 +5416,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.441356102Z"
+    created: "2025-12-17T09:52:04.406586155Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1566,7 +5451,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.429457871Z"
+    created: "2025-12-17T09:52:04.396003682Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1601,7 +5486,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.418129558Z"
+    created: "2025-12-17T09:52:04.385325617Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1636,7 +5521,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2025-12-11T03:29:55.406606501Z"
+    created: "2025-12-17T09:52:04.374816544Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1671,7 +5556,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-12-11T03:29:55.396079443Z"
+    created: "2025-12-17T09:52:04.363353606Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1706,7 +5591,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2025-12-11T03:29:55.385572231Z"
+    created: "2025-12-17T09:52:04.351969031Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1741,7 +5626,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2025-12-11T03:29:55.375106411Z"
+    created: "2025-12-17T09:52:04.341572721Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1776,7 +5661,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.364070116Z"
+    created: "2025-12-17T09:52:04.331208313Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1811,7 +5696,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.352558378Z"
+    created: "2025-12-17T09:52:04.320670322Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1846,7 +5731,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.34100727Z"
+    created: "2025-12-17T09:52:04.309956634Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1881,7 +5766,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.330675924Z"
+    created: "2025-12-17T09:52:04.299355964Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1916,7 +5801,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.319704315Z"
+    created: "2025-12-17T09:52:04.288741815Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1951,7 +5836,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.308142558Z"
+    created: "2025-12-17T09:52:04.278067008Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1986,7 +5871,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2025-12-11T03:29:55.296731251Z"
+    created: "2025-12-17T09:52:04.266667752Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2019,4 +5904,4 @@ entries:
     urls:
     - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.1.0.tgz
     version: 0.1.0
-generated: "2025-12-11T03:29:55.077340907Z"
+generated: "2025-12-17T09:52:02.675626518Z"
