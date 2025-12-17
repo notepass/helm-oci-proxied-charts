@@ -21,7 +21,7 @@ do
   chartName="$(basename "$repo")"
   echo "Updating $repo (Chart: $chartName)"
   repo_no_prefix="${repo#oci://}"
-  oras repo tags "$repo_no_prefix" | grep -Eo '^[0-9]\.[0-9]\.[0-9]$' | sort -nr | while read -r tag
+  oras repo tags "$repo_no_prefix" | grep -Eo '^[0-9]+\.[0-9]+\.[0-9]+$' | sort -nr | while read -r tag
   do
     echo "Found tag $tag in remote repo."
     if ! localCacheExists "$chartName" "$tag"
