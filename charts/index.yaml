@@ -3,7 +3,41 @@ entries:
   forgejo:
   - apiVersion: v2
     appVersion: 13.0.4
-    created: "2026-01-09T03:31:05.634622362Z"
+    created: "2026-01-14T03:32:30.369246484Z"
+    dependencies:
+    - name: common
+      repository: oci://ghcr.io/visualon/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.31.4
+    description: Forgejo Helm chart for Kubernetes
+    digest: 1835f8a32c4af0c7aad25db3db9bb5e46bcf0578030bb69c5732aec1b094c911
+    home: https://forgejo.org/
+    icon: https://code.forgejo.org/forgejo/forgejo/raw/branch/forgejo/assets/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - forgejo
+    - gitea
+    - gogs
+    maintainers:
+    - email: michael.kriese@visualon.de
+      name: Michael Kriese
+    - email: mail@pat-s.me
+      name: Patrick Schratz
+    name: forgejo
+    sources:
+    - https://code.forgejo.org/forgejo-helm/forgejo-helm
+    - https://codeberg.org/forgejo/forgejo
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/forgejo-15.1.0.tgz
+    version: 15.1.0
+  - apiVersion: v2
+    appVersion: 13.0.4
+    created: "2026-01-14T03:32:30.366934513Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -37,7 +71,7 @@ entries:
     version: 15.0.4
   - apiVersion: v2
     appVersion: 13.0.3
-    created: "2026-01-09T03:31:05.63223196Z"
+    created: "2026-01-14T03:32:30.364617414Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -71,7 +105,7 @@ entries:
     version: 15.0.3
   - apiVersion: v2
     appVersion: 13.0.2
-    created: "2026-01-09T03:31:05.629725588Z"
+    created: "2026-01-14T03:32:30.361178169Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -105,7 +139,7 @@ entries:
     version: 15.0.2
   - apiVersion: v2
     appVersion: 13.0.1
-    created: "2026-01-09T03:31:05.626202974Z"
+    created: "2026-01-14T03:32:30.358871679Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -139,7 +173,7 @@ entries:
     version: 15.0.1
   - apiVersion: v2
     appVersion: 13.0.0
-    created: "2026-01-09T03:31:05.623703901Z"
+    created: "2026-01-14T03:32:30.356563636Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -173,7 +207,7 @@ entries:
     version: 15.0.0
   - apiVersion: v2
     appVersion: 12.0.4
-    created: "2026-01-09T03:31:05.621242993Z"
+    created: "2026-01-14T03:32:30.353910813Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -207,7 +241,7 @@ entries:
     version: 14.0.4
   - apiVersion: v2
     appVersion: 12.0.4
-    created: "2026-01-09T03:31:05.617450141Z"
+    created: "2026-01-14T03:32:30.351192965Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -241,7 +275,7 @@ entries:
     version: 14.0.3
   - apiVersion: v2
     appVersion: 12.0.3
-    created: "2026-01-09T03:31:05.614760159Z"
+    created: "2026-01-14T03:32:30.348891675Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -275,7 +309,7 @@ entries:
     version: 14.0.2
   - apiVersion: v2
     appVersion: 12.0.2
-    created: "2026-01-09T03:31:05.612154322Z"
+    created: "2026-01-14T03:32:30.345662407Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -309,7 +343,7 @@ entries:
     version: 14.0.1
   - apiVersion: v2
     appVersion: 12.0.1
-    created: "2026-01-09T03:31:05.609724814Z"
+    created: "2026-01-14T03:32:30.342929803Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -343,7 +377,7 @@ entries:
     version: 14.0.0
   - apiVersion: v2
     appVersion: 12.0.1
-    created: "2026-01-09T03:31:05.607284857Z"
+    created: "2026-01-14T03:32:30.340544245Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -391,7 +425,7 @@ entries:
     version: 13.0.1
   - apiVersion: v2
     appVersion: 12.0.0
-    created: "2026-01-09T03:31:05.585908828Z"
+    created: "2026-01-14T03:32:30.319928009Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -439,7 +473,7 @@ entries:
     version: 13.0.0
   - apiVersion: v2
     appVersion: 11.0.3
-    created: "2026-01-09T03:31:05.564038451Z"
+    created: "2026-01-14T03:32:30.299051404Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -487,7 +521,7 @@ entries:
     version: 12.5.4
   - apiVersion: v2
     appVersion: 11.0.2
-    created: "2026-01-09T03:31:05.54208027Z"
+    created: "2026-01-14T03:32:30.277438187Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -535,7 +569,7 @@ entries:
     version: 12.5.3
   - apiVersion: v2
     appVersion: 11.0.2
-    created: "2026-01-09T03:31:05.519909502Z"
+    created: "2026-01-14T03:32:30.255919365Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -583,7 +617,7 @@ entries:
     version: 12.5.2
   - apiVersion: v2
     appVersion: 11.0.1
-    created: "2026-01-09T03:31:05.497516734Z"
+    created: "2026-01-14T03:32:30.233840842Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -631,7 +665,7 @@ entries:
     version: 12.5.1
   - apiVersion: v2
     appVersion: 11.0.1
-    created: "2026-01-09T03:31:05.474853172Z"
+    created: "2026-01-14T03:32:30.212982104Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -679,7 +713,7 @@ entries:
     version: 12.5.0
   - apiVersion: v2
     appVersion: 11.0.1
-    created: "2026-01-09T03:31:05.452725781Z"
+    created: "2026-01-14T03:32:30.191856064Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -727,7 +761,7 @@ entries:
     version: 12.4.1
   - apiVersion: v2
     appVersion: 11.0.1
-    created: "2026-01-09T03:31:05.431031303Z"
+    created: "2026-01-14T03:32:30.170514388Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -775,7 +809,7 @@ entries:
     version: 12.4.0
   - apiVersion: v2
     appVersion: 11.0.1
-    created: "2026-01-09T03:31:05.408038144Z"
+    created: "2026-01-14T03:32:30.149335715Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -823,7 +857,7 @@ entries:
     version: 12.3.1
   - apiVersion: v2
     appVersion: 11.0.0
-    created: "2026-01-09T03:31:05.385968309Z"
+    created: "2026-01-14T03:32:30.128349377Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -871,7 +905,7 @@ entries:
     version: 12.3.0
   - apiVersion: v2
     appVersion: 11.0.0
-    created: "2026-01-09T03:31:05.36428039Z"
+    created: "2026-01-14T03:32:30.107714109Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -919,7 +953,7 @@ entries:
     version: 12.2.0
   - apiVersion: v2
     appVersion: 11.0.0
-    created: "2026-01-09T03:31:05.341313376Z"
+    created: "2026-01-14T03:32:30.086614129Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -967,7 +1001,7 @@ entries:
     version: 12.1.0
   - apiVersion: v2
     appVersion: 11.0.0
-    created: "2026-01-09T03:31:05.319259518Z"
+    created: "2026-01-14T03:32:30.065276743Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1015,7 +1049,7 @@ entries:
     version: 12.0.0
   - apiVersion: v2
     appVersion: 10.0.3
-    created: "2026-01-09T03:31:05.297607624Z"
+    created: "2026-01-14T03:32:30.031217369Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1063,7 +1097,7 @@ entries:
     version: 11.0.5
   - apiVersion: v2
     appVersion: 10.0.2
-    created: "2026-01-09T03:31:05.274807122Z"
+    created: "2026-01-14T03:32:30.010727808Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1111,7 +1145,7 @@ entries:
     version: 11.0.4
   - apiVersion: v2
     appVersion: 10.0.1
-    created: "2026-01-09T03:31:05.253566487Z"
+    created: "2026-01-14T03:32:29.9859937Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1159,7 +1193,7 @@ entries:
     version: 11.0.3
   - apiVersion: v2
     appVersion: 10.0.1
-    created: "2026-01-09T03:31:05.2298682Z"
+    created: "2026-01-14T03:32:29.964133404Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1207,7 +1241,7 @@ entries:
     version: 11.0.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2026-01-09T03:31:05.209229662Z"
+    created: "2026-01-14T03:32:29.939794795Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1255,7 +1289,7 @@ entries:
     version: 11.0.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2026-01-09T03:31:05.187461962Z"
+    created: "2026-01-14T03:32:29.914898371Z"
     dependencies:
     - name: common
       repository: oci://ghcr.io/visualon/bitnamicharts
@@ -1303,7 +1337,7 @@ entries:
     version: 11.0.0
   - apiVersion: v2
     appVersion: 9.0.3
-    created: "2026-01-09T03:31:05.165205121Z"
+    created: "2026-01-14T03:32:29.876310885Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1351,7 +1385,7 @@ entries:
     version: 10.1.2
   - apiVersion: v2
     appVersion: 9.0.2
-    created: "2026-01-09T03:31:05.143650187Z"
+    created: "2026-01-14T03:32:29.853450832Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1399,7 +1433,7 @@ entries:
     version: 10.1.1
   - apiVersion: v2
     appVersion: 9.0.1
-    created: "2026-01-09T03:31:05.122621141Z"
+    created: "2026-01-14T03:32:29.83310228Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1447,7 +1481,7 @@ entries:
     version: 10.1.0
   - apiVersion: v2
     appVersion: 9.0.1
-    created: "2026-01-09T03:31:05.100266158Z"
+    created: "2026-01-14T03:32:29.812704914Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1495,7 +1529,7 @@ entries:
     version: 10.0.2
   - apiVersion: v2
     appVersion: 9.0.1
-    created: "2026-01-09T03:31:05.080523211Z"
+    created: "2026-01-14T03:32:29.791251963Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1543,7 +1577,7 @@ entries:
     version: 10.0.1
   - apiVersion: v2
     appVersion: 9.0.0
-    created: "2026-01-09T03:31:05.05863972Z"
+    created: "2026-01-14T03:32:29.771359804Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1591,7 +1625,7 @@ entries:
     version: 10.0.0
   - apiVersion: v2
     appVersion: 8.0.3
-    created: "2026-01-09T03:31:06.60472419Z"
+    created: "2026-01-14T03:32:31.2919056Z"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -1639,7 +1673,7 @@ entries:
     version: 9.0.0
   - apiVersion: v2
     appVersion: 8.0.3
-    created: "2026-01-09T03:31:06.584757792Z"
+    created: "2026-01-14T03:32:31.272141562Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1682,7 +1716,7 @@ entries:
     version: 8.2.3
   - apiVersion: v2
     appVersion: 8.0.3
-    created: "2026-01-09T03:31:06.563705834Z"
+    created: "2026-01-14T03:32:31.251715055Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1725,7 +1759,7 @@ entries:
     version: 8.2.2
   - apiVersion: v2
     appVersion: 8.0.2
-    created: "2026-01-09T03:31:06.542958037Z"
+    created: "2026-01-14T03:32:31.231688951Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1768,7 +1802,7 @@ entries:
     version: 8.2.1
   - apiVersion: v2
     appVersion: 8.0.1
-    created: "2026-01-09T03:31:06.523331968Z"
+    created: "2026-01-14T03:32:31.212670486Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1811,7 +1845,7 @@ entries:
     version: 8.2.0
   - apiVersion: v2
     appVersion: 8.0.1
-    created: "2026-01-09T03:31:06.50210332Z"
+    created: "2026-01-14T03:32:31.193468236Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1854,7 +1888,7 @@ entries:
     version: 8.1.2
   - apiVersion: v2
     appVersion: 8.0.1
-    created: "2026-01-09T03:31:06.481896436Z"
+    created: "2026-01-14T03:32:31.174698374Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1897,7 +1931,7 @@ entries:
     version: 8.1.1
   - apiVersion: v2
     appVersion: 8.0.0
-    created: "2026-01-09T03:31:06.462485903Z"
+    created: "2026-01-14T03:32:31.1545591Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1940,7 +1974,7 @@ entries:
     version: 8.1.0
   - apiVersion: v2
     appVersion: 8.0.0
-    created: "2026-01-09T03:31:06.441653863Z"
+    created: "2026-01-14T03:32:31.1352328Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -1979,7 +2013,7 @@ entries:
     version: 8.0.1
   - apiVersion: v2
     appVersion: 8.0.0
-    created: "2026-01-09T03:31:06.42610305Z"
+    created: "2026-01-14T03:32:31.119950048Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2018,7 +2052,7 @@ entries:
     version: 8.0.0
   - apiVersion: v2
     appVersion: 7.0.16
-    created: "2026-01-09T03:31:06.29153627Z"
+    created: "2026-01-14T03:32:30.989720133Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2057,7 +2091,7 @@ entries:
     version: 7.1.14
   - apiVersion: v2
     appVersion: 7.0.15
-    created: "2026-01-09T03:31:06.275775371Z"
+    created: "2026-01-14T03:32:30.975939303Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2096,7 +2130,7 @@ entries:
     version: 7.1.13
   - apiVersion: v2
     appVersion: 7.0.15
-    created: "2026-01-09T03:31:06.261215718Z"
+    created: "2026-01-14T03:32:30.961172895Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2135,7 +2169,7 @@ entries:
     version: 7.1.12
   - apiVersion: v2
     appVersion: 7.0.15
-    created: "2026-01-09T03:31:06.246215555Z"
+    created: "2026-01-14T03:32:30.945981388Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2174,7 +2208,7 @@ entries:
     version: 7.1.11
   - apiVersion: v2
     appVersion: 7.0.14
-    created: "2026-01-09T03:31:06.230511554Z"
+    created: "2026-01-14T03:32:30.932167543Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2213,7 +2247,7 @@ entries:
     version: 7.1.10
   - apiVersion: v2
     appVersion: 7.0.13
-    created: "2026-01-09T03:31:06.411450206Z"
+    created: "2026-01-14T03:32:31.106057559Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2252,7 +2286,7 @@ entries:
     version: 7.1.9
   - apiVersion: v2
     appVersion: 7.0.13
-    created: "2026-01-09T03:31:06.395692507Z"
+    created: "2026-01-14T03:32:31.091130114Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2291,7 +2325,7 @@ entries:
     version: 7.1.8
   - apiVersion: v2
     appVersion: 7.0.12
-    created: "2026-01-09T03:31:06.380789542Z"
+    created: "2026-01-14T03:32:31.077444073Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2330,7 +2364,7 @@ entries:
     version: 7.1.7
   - apiVersion: v2
     appVersion: 7.0.12
-    created: "2026-01-09T03:31:06.36523181Z"
+    created: "2026-01-14T03:32:31.062617208Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2369,7 +2403,7 @@ entries:
     version: 7.1.6
   - apiVersion: v2
     appVersion: 7.0.11
-    created: "2026-01-09T03:31:06.350457632Z"
+    created: "2026-01-14T03:32:31.047122329Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2408,7 +2442,7 @@ entries:
     version: 7.1.5
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2026-01-09T03:31:06.335143111Z"
+    created: "2026-01-14T03:32:31.033101201Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2447,7 +2481,7 @@ entries:
     version: 7.1.4
   - apiVersion: v2
     appVersion: 7.0.10
-    created: "2026-01-09T03:31:06.320960242Z"
+    created: "2026-01-14T03:32:31.019490125Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2486,7 +2520,7 @@ entries:
     version: 7.1.3
   - apiVersion: v2
     appVersion: 7.0.9
-    created: "2026-01-09T03:31:06.306770923Z"
+    created: "2026-01-14T03:32:31.004887035Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2525,7 +2559,7 @@ entries:
     version: 7.1.2
   - apiVersion: v2
     appVersion: 7.0.8
-    created: "2026-01-09T03:31:06.215812423Z"
+    created: "2026-01-14T03:32:30.917446871Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2564,7 +2598,7 @@ entries:
     version: 7.1.1
   - apiVersion: v2
     appVersion: 7.0.7
-    created: "2026-01-09T03:31:06.199780774Z"
+    created: "2026-01-14T03:32:30.902550851Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2603,7 +2637,7 @@ entries:
     version: 7.1.0
   - apiVersion: v2
     appVersion: 7.0.7
-    created: "2026-01-09T03:31:06.184082552Z"
+    created: "2026-01-14T03:32:30.888933295Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2642,7 +2676,7 @@ entries:
     version: 7.0.7
   - apiVersion: v2
     appVersion: 7.0.7
-    created: "2026-01-09T03:31:06.169166591Z"
+    created: "2026-01-14T03:32:30.874167892Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2681,7 +2715,7 @@ entries:
     version: 7.0.6
   - apiVersion: v2
     appVersion: 7.0.7
-    created: "2026-01-09T03:31:06.153539066Z"
+    created: "2026-01-14T03:32:30.85932672Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2720,7 +2754,7 @@ entries:
     version: 7.0.5
   - apiVersion: v2
     appVersion: 7.0.6
-    created: "2026-01-09T03:31:06.13912487Z"
+    created: "2026-01-14T03:32:30.845743641Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2759,7 +2793,7 @@ entries:
     version: 7.0.4
   - apiVersion: v2
     appVersion: 7.0.5
-    created: "2026-01-09T03:31:06.124296542Z"
+    created: "2026-01-14T03:32:30.831115755Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2798,7 +2832,7 @@ entries:
     version: 7.0.3
   - apiVersion: v2
     appVersion: 7.0.5
-    created: "2026-01-09T03:31:06.108248629Z"
+    created: "2026-01-14T03:32:30.816093029Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2837,7 +2871,7 @@ entries:
     version: 7.0.2
   - apiVersion: v2
     appVersion: 7.0.4
-    created: "2026-01-09T03:31:06.093442317Z"
+    created: "2026-01-14T03:32:30.802465462Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2876,7 +2910,7 @@ entries:
     version: 7.0.1
   - apiVersion: v2
     appVersion: 7.0.3
-    created: "2026-01-09T03:31:06.077692231Z"
+    created: "2026-01-14T03:32:30.788058342Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2915,7 +2949,7 @@ entries:
     version: 7.0.0
   - apiVersion: v2
     appVersion: 7.0.3
-    created: "2026-01-09T03:31:06.063529818Z"
+    created: "2026-01-14T03:32:30.773447399Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2954,7 +2988,7 @@ entries:
     version: 6.1.1
   - apiVersion: v2
     appVersion: 7.0.3
-    created: "2026-01-09T03:31:06.048532099Z"
+    created: "2026-01-14T03:32:30.759766688Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -2993,7 +3027,7 @@ entries:
     version: 6.1.0
   - apiVersion: v2
     appVersion: 7.0.3
-    created: "2026-01-09T03:31:06.032738212Z"
+    created: "2026-01-14T03:32:30.745531508Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3032,7 +3066,7 @@ entries:
     version: 6.0.8
   - apiVersion: v2
     appVersion: 7.0.3
-    created: "2026-01-09T03:31:06.018321774Z"
+    created: "2026-01-14T03:32:30.730736543Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3071,7 +3105,7 @@ entries:
     version: 6.0.7
   - apiVersion: v2
     appVersion: 7.0.2
-    created: "2026-01-09T03:31:06.003683617Z"
+    created: "2026-01-14T03:32:30.716172287Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3110,7 +3144,7 @@ entries:
     version: 6.0.6
   - apiVersion: v2
     appVersion: 7.0.2
-    created: "2026-01-09T03:31:05.987876152Z"
+    created: "2026-01-14T03:32:30.702487881Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3149,7 +3183,7 @@ entries:
     version: 6.0.5
   - apiVersion: v2
     appVersion: 7.0.1
-    created: "2026-01-09T03:31:05.97360114Z"
+    created: "2026-01-14T03:32:30.688234039Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3188,7 +3222,7 @@ entries:
     version: 6.0.3
   - apiVersion: v2
     appVersion: 7.0.1
-    created: "2026-01-09T03:31:05.958587066Z"
+    created: "2026-01-14T03:32:30.674641337Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3227,7 +3261,7 @@ entries:
     version: 6.0.2
   - apiVersion: v2
     appVersion: 7.0.1
-    created: "2026-01-09T03:31:05.942610806Z"
+    created: "2026-01-14T03:32:30.660085252Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3266,7 +3300,7 @@ entries:
     version: 6.0.1
   - apiVersion: v2
     appVersion: 7.0.0
-    created: "2026-01-09T03:31:05.928319398Z"
+    created: "2026-01-14T03:32:30.645513262Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3305,7 +3339,7 @@ entries:
     version: 6.0.0
   - apiVersion: v2
     appVersion: 1.21.11-2
-    created: "2026-01-09T03:31:05.912844446Z"
+    created: "2026-01-14T03:32:30.631379358Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3344,7 +3378,7 @@ entries:
     version: 5.1.3
   - apiVersion: v2
     appVersion: 1.21.11-2
-    created: "2026-01-09T03:31:05.8985256Z"
+    created: "2026-01-14T03:32:30.616894315Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3383,7 +3417,7 @@ entries:
     version: 5.1.2
   - apiVersion: v2
     appVersion: 1.21.11-1
-    created: "2026-01-09T03:31:05.882783279Z"
+    created: "2026-01-14T03:32:30.603198391Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3422,7 +3456,7 @@ entries:
     version: 5.1.1
   - apiVersion: v2
     appVersion: 1.21.11-1
-    created: "2026-01-09T03:31:05.868083904Z"
+    created: "2026-01-14T03:32:30.58986642Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3461,7 +3495,7 @@ entries:
     version: 5.1.0
   - apiVersion: v2
     appVersion: 1.21.11-1
-    created: "2026-01-09T03:31:05.852412731Z"
+    created: "2026-01-14T03:32:30.575525711Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3500,7 +3534,7 @@ entries:
     version: 5.0.5
   - apiVersion: v2
     appVersion: 1.21.11-0
-    created: "2026-01-09T03:31:05.838475012Z"
+    created: "2026-01-14T03:32:30.560789906Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3539,7 +3573,7 @@ entries:
     version: 5.0.4
   - apiVersion: v2
     appVersion: 1.21.10-0
-    created: "2026-01-09T03:31:05.824448795Z"
+    created: "2026-01-14T03:32:30.547140733Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3578,7 +3612,7 @@ entries:
     version: 5.0.3
   - apiVersion: v2
     appVersion: 1.21.8-0
-    created: "2026-01-09T03:31:05.809501456Z"
+    created: "2026-01-14T03:32:30.533760305Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3617,7 +3651,7 @@ entries:
     version: 5.0.2
   - apiVersion: v2
     appVersion: 1.21.8-0
-    created: "2026-01-09T03:31:05.793813395Z"
+    created: "2026-01-14T03:32:30.51953422Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3656,7 +3690,7 @@ entries:
     version: 5.0.1
   - apiVersion: v2
     appVersion: 1.21.7-0
-    created: "2026-01-09T03:31:05.779970594Z"
+    created: "2026-01-14T03:32:30.505128542Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3695,7 +3729,7 @@ entries:
     version: 5.0.0
   - apiVersion: v2
     appVersion: 1.21.7-0
-    created: "2026-01-09T03:31:05.765851689Z"
+    created: "2026-01-14T03:32:30.491844513Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3734,7 +3768,7 @@ entries:
     version: 4.0.3
   - apiVersion: v2
     appVersion: 1.21.7-0
-    created: "2026-01-09T03:31:05.751179444Z"
+    created: "2026-01-14T03:32:30.478591494Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3773,7 +3807,7 @@ entries:
     version: 4.0.2
   - apiVersion: v2
     appVersion: 1.21.6-0
-    created: "2026-01-09T03:31:05.735553758Z"
+    created: "2026-01-14T03:32:30.464365149Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3812,7 +3846,7 @@ entries:
     version: 4.0.1
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.720220756Z"
+    created: "2026-01-14T03:32:30.450486391Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3851,7 +3885,7 @@ entries:
     version: 4.0.0
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.706640418Z"
+    created: "2026-01-14T03:32:30.43739419Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3890,7 +3924,7 @@ entries:
     version: 3.0.3
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.692814768Z"
+    created: "2026-01-14T03:32:30.42359502Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3929,7 +3963,7 @@ entries:
     version: 3.0.2
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.678837279Z"
+    created: "2026-01-14T03:32:30.409502632Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -3968,7 +4002,7 @@ entries:
     version: 3.0.1
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.66447525Z"
+    created: "2026-01-14T03:32:30.396520807Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4007,7 +4041,7 @@ entries:
     version: 3.0.0
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.650645333Z"
+    created: "2026-01-14T03:32:30.383085608Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4046,7 +4080,7 @@ entries:
     version: 2.0.0
   - apiVersion: v2
     appVersion: 1.21.5-0
-    created: "2026-01-09T03:31:05.037815732Z"
+    created: "2026-01-14T03:32:29.751055995Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4085,7 +4119,7 @@ entries:
     version: 1.1.7
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:05.024993568Z"
+    created: "2026-01-14T03:32:29.73743206Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4124,7 +4158,7 @@ entries:
     version: 1.1.6
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:05.011555202Z"
+    created: "2026-01-14T03:32:29.723120585Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4163,7 +4197,7 @@ entries:
     version: 1.1.5
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:04.997693802Z"
+    created: "2026-01-14T03:32:29.709699033Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4202,7 +4236,7 @@ entries:
     version: 1.1.4
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:04.983738721Z"
+    created: "2026-01-14T03:32:29.695890821Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4241,7 +4275,7 @@ entries:
     version: 1.1.3
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:04.970344508Z"
+    created: "2026-01-14T03:32:29.682471866Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4280,7 +4314,7 @@ entries:
     version: 1.1.2
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:04.956417904Z"
+    created: "2026-01-14T03:32:29.668800986Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4319,7 +4353,7 @@ entries:
     version: 1.1.1
   - apiVersion: v2
     appVersion: 1.21.4-0
-    created: "2026-01-09T03:31:04.942140712Z"
+    created: "2026-01-14T03:32:29.655954916Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4358,7 +4392,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.21.3-0
-    created: "2026-01-09T03:31:04.924808923Z"
+    created: "2026-01-14T03:32:29.642611338Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4397,7 +4431,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.21.3-0
-    created: "2026-01-09T03:31:04.910926231Z"
+    created: "2026-01-14T03:32:29.629087575Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4436,7 +4470,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.21.2-1
-    created: "2026-01-09T03:31:04.898320819Z"
+    created: "2026-01-14T03:32:29.615843756Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4475,7 +4509,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.21.2-1
-    created: "2026-01-09T03:31:04.885466441Z"
+    created: "2026-01-14T03:32:29.601818199Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4514,7 +4548,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.21.2-0
-    created: "2026-01-09T03:31:04.872236043Z"
+    created: "2026-01-14T03:32:29.589363372Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4553,7 +4587,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.21.1-0
-    created: "2026-01-09T03:31:04.555902685Z"
+    created: "2026-01-14T03:32:29.278772456Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4592,7 +4626,7 @@ entries:
     version: 0.16.2
   - apiVersion: v2
     appVersion: 1.21.1-0
-    created: "2026-01-09T03:31:04.542549878Z"
+    created: "2026-01-14T03:32:29.266233231Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4631,7 +4665,7 @@ entries:
     version: 0.16.1
   - apiVersion: v2
     appVersion: 1.21.1-0
-    created: "2026-01-09T03:31:04.528947831Z"
+    created: "2026-01-14T03:32:29.253290843Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -4670,7 +4704,7 @@ entries:
     version: 0.16.0
   - apiVersion: v2
     appVersion: 1.21.1-0
-    created: "2026-01-09T03:31:04.50887718Z"
+    created: "2026-01-14T03:32:29.233090402Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4705,7 +4739,7 @@ entries:
     version: 0.15.0
   - apiVersion: v2
     appVersion: 1.20.5-0
-    created: "2026-01-09T03:31:04.496682668Z"
+    created: "2026-01-14T03:32:29.221128363Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4740,7 +4774,7 @@ entries:
     version: 0.14.0
   - apiVersion: v2
     appVersion: 1.20.5-0
-    created: "2026-01-09T03:31:04.484442262Z"
+    created: "2026-01-14T03:32:29.209224881Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4775,7 +4809,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 1.20.4-1
-    created: "2026-01-09T03:31:04.472397224Z"
+    created: "2026-01-14T03:32:29.197062939Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4810,7 +4844,7 @@ entries:
     version: 0.12.1
   - apiVersion: v2
     appVersion: 1.20.4-0
-    created: "2026-01-09T03:31:04.46033443Z"
+    created: "2026-01-14T03:32:29.184912991Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4845,7 +4879,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 1.20.3-0
-    created: "2026-01-09T03:31:04.447738559Z"
+    created: "2026-01-14T03:32:29.172457062Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4880,7 +4914,7 @@ entries:
     version: 0.11.1
   - apiVersion: v2
     appVersion: 1.20.3-0
-    created: "2026-01-09T03:31:04.434832631Z"
+    created: "2026-01-14T03:32:29.159971574Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4915,7 +4949,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 1.20.2-0
-    created: "2026-01-09T03:31:04.42270227Z"
+    created: "2026-01-14T03:32:29.147619408Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4950,7 +4984,7 @@ entries:
     version: 0.10.1
   - apiVersion: v2
     appVersion: 1.20.1-0
-    created: "2026-01-09T03:31:04.411310408Z"
+    created: "2026-01-14T03:32:29.135613441Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -4985,7 +5019,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 1.19.4-0
-    created: "2026-01-09T03:31:04.858675383Z"
+    created: "2026-01-14T03:32:29.576715807Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5020,7 +5054,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 1.19.4-0
-    created: "2026-01-09T03:31:04.846192783Z"
+    created: "2026-01-14T03:32:29.564262662Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5055,7 +5089,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 1.19.4-0
-    created: "2026-01-09T03:31:04.835599725Z"
+    created: "2026-01-14T03:32:29.553141477Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5090,7 +5124,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 1.19.4-0
-    created: "2026-01-09T03:31:04.822929743Z"
+    created: "2026-01-14T03:32:29.540856083Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5125,7 +5159,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 1.19.4-0
-    created: "2026-01-09T03:31:04.812512404Z"
+    created: "2026-01-14T03:32:29.529760344Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5160,7 +5194,7 @@ entries:
     version: 0.8.6
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.800665743Z"
+    created: "2026-01-14T03:32:29.51870339Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5195,7 +5229,7 @@ entries:
     version: 0.8.5
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.788847693Z"
+    created: "2026-01-14T03:32:29.507106491Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5230,7 +5264,7 @@ entries:
     version: 0.8.4
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.777469109Z"
+    created: "2026-01-14T03:32:29.496572402Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5265,7 +5299,7 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.766515547Z"
+    created: "2026-01-14T03:32:29.485396643Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5300,7 +5334,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.755285512Z"
+    created: "2026-01-14T03:32:29.47312941Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5335,7 +5369,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.74422806Z"
+    created: "2026-01-14T03:32:29.462977543Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5370,7 +5404,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.733408768Z"
+    created: "2026-01-14T03:32:29.451012253Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5405,7 +5439,7 @@ entries:
     version: 0.7.3
   - apiVersion: v2
     appVersion: 1.19.3-0
-    created: "2026-01-09T03:31:04.722554003Z"
+    created: "2026-01-14T03:32:29.438485896Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5440,7 +5474,7 @@ entries:
     version: 0.7.2
   - apiVersion: v2
     appVersion: 1.19.2-0
-    created: "2026-01-09T03:31:04.71140908Z"
+    created: "2026-01-14T03:32:29.428353927Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5475,7 +5509,7 @@ entries:
     version: 0.7.1
   - apiVersion: v2
     appVersion: 1.19.1-0
-    created: "2026-01-09T03:31:04.70058546Z"
+    created: "2026-01-14T03:32:29.417532525Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5510,7 +5544,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 1.19.0-3
-    created: "2026-01-09T03:31:04.690273501Z"
+    created: "2026-01-14T03:32:29.406700917Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5545,7 +5579,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 1.19.0-2
-    created: "2026-01-09T03:31:04.679694196Z"
+    created: "2026-01-14T03:32:29.39599906Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5580,7 +5614,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 1.19.0-2
-    created: "2026-01-09T03:31:04.669140027Z"
+    created: "2026-01-14T03:32:29.385479275Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5623,7 +5657,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 1.19.0-2
-    created: "2026-01-09T03:31:04.653811574Z"
+    created: "2026-01-14T03:32:29.369796993Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5666,7 +5700,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 1.18.5-0
-    created: "2026-01-09T03:31:04.6373354Z"
+    created: "2026-01-14T03:32:29.353757809Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5709,7 +5743,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 1.18.5-0
-    created: "2026-01-09T03:31:04.621555161Z"
+    created: "2026-01-14T03:32:29.337789085Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5752,7 +5786,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 1.18.2-1
-    created: "2026-01-09T03:31:04.604331733Z"
+    created: "2026-01-14T03:32:29.321213236Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5795,7 +5829,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 1.18.1-0
-    created: "2026-01-09T03:31:04.587926339Z"
+    created: "2026-01-14T03:32:29.306484176Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5838,7 +5872,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.572447243Z"
+    created: "2026-01-14T03:32:29.290949406Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5881,7 +5915,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.399867296Z"
+    created: "2026-01-14T03:32:29.123183274Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5924,7 +5958,7 @@ entries:
     version: 0.1.0
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.388432993Z"
+    created: "2026-01-14T03:32:29.111858646Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -5967,7 +6001,7 @@ entries:
     version: 0.0.4
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.380082105Z"
+    created: "2026-01-14T03:32:29.103491785Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -6009,7 +6043,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.371312848Z"
+    created: "2026-01-14T03:32:29.094991805Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -6051,7 +6085,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: 1.18.0-1
-    created: "2026-01-09T03:31:04.362826854Z"
+    created: "2026-01-14T03:32:29.087217636Z"
     dependencies:
     - condition: memcached.enabled
       name: memcached
@@ -6103,7 +6137,7 @@ entries:
   gha-runner-scale-set-controller:
   - apiVersion: v2
     appVersion: 0.13.1
-    created: "2026-01-09T03:31:06.670395365Z"
+    created: "2026-01-14T03:32:31.354661283Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 2df9f9c7c25bc79781dfd68f73594262f38277fbfd0e9e870aebace831b8785f
     home: https://github.com/actions/actions-runner-controller
@@ -6119,7 +6153,7 @@ entries:
     version: 0.13.1
   - apiVersion: v2
     appVersion: 0.13.0
-    created: "2026-01-09T03:31:06.65972278Z"
+    created: "2026-01-14T03:32:31.344772414Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 2df4656eaca459bc6f13619ef388d2d5b06fe5bbaa6cb9b7cc1fd43954b537bc
     home: https://github.com/actions/actions-runner-controller
@@ -6135,7 +6169,7 @@ entries:
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.12.1
-    created: "2026-01-09T03:31:06.650194179Z"
+    created: "2026-01-14T03:32:31.334814338Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 8e41ada743585fdc15cb7f9a6e055cce894520ef2138acf27e0235414ccba08d
     home: https://github.com/actions/actions-runner-controller
@@ -6151,7 +6185,7 @@ entries:
     version: 0.12.1
   - apiVersion: v2
     appVersion: 0.12.0
-    created: "2026-01-09T03:31:06.640487582Z"
+    created: "2026-01-14T03:32:31.325908101Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: bc7d8b7b4035c763af08f84717ecbe66fc87495f9bb359e2b2bcadf27378a205
     home: https://github.com/actions/actions-runner-controller
@@ -6167,7 +6201,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.11.0
-    created: "2026-01-09T03:31:06.630263833Z"
+    created: "2026-01-14T03:32:31.317060238Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 879c003453e57e6e487a880e0d17a8009988be78a3cc1713a56d88a1de18e5a2
     home: https://github.com/actions/actions-runner-controller
@@ -6183,7 +6217,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.10.1
-    created: "2026-01-09T03:31:06.621135828Z"
+    created: "2026-01-14T03:32:31.308860884Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 4711642e049fef1b4e9954499788830628e96e89e86246eaeaa4a912408bc7df
     home: https://github.com/actions/actions-runner-controller
@@ -6199,7 +6233,7 @@ entries:
     version: 0.10.1
   - apiVersion: v2
     appVersion: 0.10.0
-    created: "2026-01-09T03:31:06.612535896Z"
+    created: "2026-01-14T03:32:31.299412699Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 195046526162e80e27707f90d2aff16823949053fcbff96dbd40806875e03834
     home: https://github.com/actions/actions-runner-controller
@@ -6215,7 +6249,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.9.3
-    created: "2026-01-09T03:31:06.768964893Z"
+    created: "2026-01-14T03:32:31.447513915Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: fe2d9698a14f34b8ebfb07c7ddad4753e9f10873f4dc36c0d838c91190773641
     home: https://github.com/actions/actions-runner-controller
@@ -6231,7 +6265,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 0.9.2
-    created: "2026-01-09T03:31:06.762343583Z"
+    created: "2026-01-14T03:32:31.440609042Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: ab621113b5684bae35736fc63b7ffe83f0aa895672670e9b3a953ea4fc67219d
     home: https://github.com/actions/actions-runner-controller
@@ -6247,7 +6281,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
-    created: "2026-01-09T03:31:06.7548838Z"
+    created: "2026-01-14T03:32:31.433627989Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 294d1843b98e135adabe9bdc6e3eed326655f6b9f76db8fc8255c9d86499ae2d
     home: https://github.com/actions/actions-runner-controller
@@ -6263,7 +6297,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
-    created: "2026-01-09T03:31:06.747018603Z"
+    created: "2026-01-14T03:32:31.426422195Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: cce2a0efa8710f71665890426398a6562ff3dbb2b48133b55d85ee885afeff04
     home: https://github.com/actions/actions-runner-controller
@@ -6279,7 +6313,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.3
-    created: "2026-01-09T03:31:06.739770868Z"
+    created: "2026-01-14T03:32:31.418043406Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 98ce26801a8744840bb34430a62b41ec353e89802c4e323676bb461aad5c511d
     home: https://github.com/actions/actions-runner-controller
@@ -6295,7 +6329,7 @@ entries:
     version: 0.8.3
   - apiVersion: v2
     appVersion: 0.8.2
-    created: "2026-01-09T03:31:06.732738008Z"
+    created: "2026-01-14T03:32:31.41013537Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 61dc0d70802f0e53743d05ace4b1a5a851772c549a234f928253d9247c690320
     home: https://github.com/actions/actions-runner-controller
@@ -6311,7 +6345,7 @@ entries:
     version: 0.8.2
   - apiVersion: v2
     appVersion: 0.8.1
-    created: "2026-01-09T03:31:06.725873561Z"
+    created: "2026-01-14T03:32:31.404586585Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 4f513abb52fb89841d9e109672798d659dc155861b7ca14107378c258acacc02
     home: https://github.com/actions/actions-runner-controller
@@ -6327,7 +6361,7 @@ entries:
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
-    created: "2026-01-09T03:31:06.71853355Z"
+    created: "2026-01-14T03:32:31.398336364Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 67e24c6fc8c047534a4e6edc452da15b4891d2efbaa79319a2dda05fcb489464
     home: https://github.com/actions/actions-runner-controller
@@ -6343,7 +6377,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2026-01-09T03:31:06.711805299Z"
+    created: "2026-01-14T03:32:31.392082828Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 7e1927ccf544d69d82b84ecb1e002a8a8ad6c295b207b5d37015918ffa5edd94
     home: https://github.com/actions/actions-runner-controller
@@ -6359,7 +6393,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.1
-    created: "2026-01-09T03:31:06.704275196Z"
+    created: "2026-01-14T03:32:31.385721976Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 51591802a6b14f5f22f92db668e4a5a80fd196d1343ddb4d4bcbd7a5f89b0d6f
     home: https://github.com/actions/actions-runner-controller
@@ -6375,7 +6409,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2026-01-09T03:31:06.69553578Z"
+    created: "2026-01-14T03:32:31.378663474Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 2f55d5ff6a9b7132edb2a286d47627a45e807d1dbba580c8289627ef1c0c96b5
     home: https://github.com/actions/actions-runner-controller
@@ -6391,7 +6425,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2026-01-09T03:31:06.688847694Z"
+    created: "2026-01-14T03:32:31.370858135Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 50564d2c3718404b212d5f5d5f120b891f7f5ebf5f2d6717a80d39747ea3c492
     home: https://github.com/actions/actions-runner-controller
@@ -6407,7 +6441,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2026-01-09T03:31:06.684597068Z"
+    created: "2026-01-14T03:32:31.367306623Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 663ae5ebd98bfff730357de2eab265bd8f380e6ce7e8b39569fe1aec92f077df
     home: https://github.com/actions/actions-runner-controller
@@ -6423,7 +6457,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
-    created: "2026-01-09T03:31:06.679194087Z"
+    created: "2026-01-14T03:32:31.362649937Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 32c7a488bb5b1bf58785e6cc7070f4715e03fa6714072529e1c94f23b864a7e7
     home: https://github.com/actions/actions-runner-controller
@@ -6439,7 +6473,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2026-01-09T03:31:06.674441212Z"
+    created: "2026-01-14T03:32:31.358558238Z"
     description: A Helm chart for install actions-runner-controller CRD
     digest: 304dfaa293badcfacfa557490c144fd9e34decc406236dd8a7e803cc47766cc2
     home: https://github.com/actions/actions-runner-controller
@@ -6461,7 +6495,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.122.4
-    created: "2026-01-09T03:31:07.017090507Z"
+    created: "2026-01-14T03:32:31.683956966Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6504,7 +6538,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.122.4
-    created: "2026-01-09T03:31:07.015154848Z"
+    created: "2026-01-14T03:32:31.681938643Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6545,7 +6579,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.116.2
-    created: "2026-01-09T03:31:07.013131374Z"
+    created: "2026-01-14T03:32:31.679959393Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6586,7 +6620,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.116.2
-    created: "2026-01-09T03:31:06.956297775Z"
+    created: "2026-01-14T03:32:31.62428637Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6627,7 +6661,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.112.0
-    created: "2026-01-09T03:31:06.949819926Z"
+    created: "2026-01-14T03:32:31.618063977Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6668,7 +6702,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.109.1
-    created: "2026-01-09T03:31:06.943515577Z"
+    created: "2026-01-14T03:32:31.612641026Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6709,7 +6743,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.107.4
-    created: "2026-01-09T03:31:06.937475885Z"
+    created: "2026-01-14T03:32:31.606245758Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6752,7 +6786,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.107.4
-    created: "2026-01-09T03:31:06.930732586Z"
+    created: "2026-01-14T03:32:31.600052126Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6793,7 +6827,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.99.1
-    created: "2026-01-09T03:31:06.92412225Z"
+    created: "2026-01-14T03:32:31.593815411Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6836,7 +6870,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.99.1
-    created: "2026-01-09T03:31:07.006541287Z"
+    created: "2026-01-14T03:32:31.673529563Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6879,7 +6913,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.86.0
-    created: "2026-01-09T03:31:06.999950396Z"
+    created: "2026-01-14T03:32:31.667130686Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6920,7 +6954,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2026-01-09T03:31:06.993498654Z"
+    created: "2026-01-14T03:32:31.660884971Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -6961,7 +6995,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2026-01-09T03:31:06.987139271Z"
+    created: "2026-01-14T03:32:31.655508718Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -7006,7 +7040,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.85.1
-    created: "2026-01-09T03:31:06.981138672Z"
+    created: "2026-01-14T03:32:31.649007209Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -7047,7 +7081,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2026-01-09T03:31:06.974527253Z"
+    created: "2026-01-14T03:32:31.642682387Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -7090,7 +7124,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.81.4
-    created: "2026-01-09T03:31:06.968121716Z"
+    created: "2026-01-14T03:32:31.637149782Z"
     dependencies:
     - condition: valkey.enabled
       name: valkey
@@ -7131,7 +7165,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.80.5
-    created: "2026-01-09T03:31:06.962500304Z"
+    created: "2026-01-14T03:32:31.63057263Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -7172,7 +7206,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2026-01-09T03:31:06.917890585Z"
+    created: "2026-01-14T03:32:31.588456009Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -7213,7 +7247,7 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 1.76.1
-    created: "2026-01-09T03:31:06.911662937Z"
+    created: "2026-01-14T03:32:31.582078053Z"
     dependencies:
     - condition: redis.enabled
       name: valkey
@@ -7254,7 +7288,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.58.2
-    created: "2026-01-09T03:31:06.891034619Z"
+    created: "2026-01-14T03:32:31.561830789Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7295,7 +7329,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.55.3
-    created: "2026-01-09T03:31:06.884713574Z"
+    created: "2026-01-14T03:32:31.556928489Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7336,7 +7370,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.55.3
-    created: "2026-01-09T03:31:06.878533517Z"
+    created: "2026-01-14T03:32:31.551002544Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7377,7 +7411,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.54.4
-    created: "2026-01-09T03:31:06.873507166Z"
+    created: "2026-01-14T03:32:31.545182286Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7418,7 +7452,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.49.0
-    created: "2026-01-09T03:31:06.867163833Z"
+    created: "2026-01-14T03:32:31.540263034Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7459,7 +7493,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.49.0
-    created: "2026-01-09T03:31:06.861079023Z"
+    created: "2026-01-14T03:32:31.534260718Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7500,7 +7534,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.48.3
-    created: "2026-01-09T03:31:06.855674722Z"
+    created: "2026-01-14T03:32:31.528466338Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7541,7 +7575,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.47.3
-    created: "2026-01-09T03:31:06.849241464Z"
+    created: "2026-01-14T03:32:31.523672641Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7582,7 +7616,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.45.1
-    created: "2026-01-09T03:31:06.843426695Z"
+    created: "2026-01-14T03:32:31.517969285Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7623,7 +7657,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.34.2
-    created: "2026-01-09T03:31:06.838319579Z"
+    created: "2026-01-14T03:32:31.512439731Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7662,7 +7696,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.33.1
-    created: "2026-01-09T03:31:06.832841711Z"
+    created: "2026-01-14T03:32:31.508023347Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7706,7 +7740,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.30.2
-    created: "2026-01-09T03:31:06.82829078Z"
+    created: "2026-01-14T03:32:31.502534947Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7745,7 +7779,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.30.0
-    created: "2026-01-09T03:31:06.822344063Z"
+    created: "2026-01-14T03:32:31.49732161Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7778,7 +7812,7 @@ entries:
       artifacthub.io/changes: "- Updated to n8n v1.30.0        \n"
     apiVersion: v2
     appVersion: 1.30.0
-    created: "2026-01-09T03:31:06.817112582Z"
+    created: "2026-01-14T03:32:31.492243312Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7816,7 +7850,7 @@ entries:
               url: https://github.com/8gears/n8n-helm-chart/pull/63
     apiVersion: v2
     appVersion: 1.22.3
-    created: "2026-01-09T03:31:06.811136744Z"
+    created: "2026-01-14T03:32:31.486717578Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7866,7 +7900,7 @@ entries:
         PR\"\n      url: https://github.com/8gears/n8n-helm-chart/pull/46\n"
     apiVersion: v2
     appVersion: 1.22.3
-    created: "2026-01-09T03:31:06.805636516Z"
+    created: "2026-01-14T03:32:31.482205866Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7909,7 +7943,7 @@ entries:
         PR\"\n      url: https://github.com/8gears/n8n-helm-chart/pull/46\n"
     apiVersion: v2
     appVersion: 1.7.1
-    created: "2026-01-09T03:31:06.799627418Z"
+    created: "2026-01-14T03:32:31.475585308Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -7958,7 +7992,7 @@ entries:
               url: https://github.com/8gears/n8n-helm-chart/pull/46
     apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-01-09T03:31:06.793810791Z"
+    created: "2026-01-14T03:32:31.470694855Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8002,7 +8036,7 @@ entries:
               url: https://github.com/8gears/n8n-helm-chart/pull/46
     apiVersion: v2
     appVersion: 1.5.1
-    created: "2026-01-09T03:31:06.789168985Z"
+    created: "2026-01-14T03:32:31.465613091Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8038,7 +8072,7 @@ entries:
         \         \n"
     apiVersion: v2
     appVersion: 0.236.3
-    created: "2026-01-09T03:31:06.783414199Z"
+    created: "2026-01-14T03:32:31.460263234Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8080,7 +8114,7 @@ entries:
         aka @swarnat\"\n      url: https://github.com/swarnat\n"
     apiVersion: v2
     appVersion: 0.217.1
-    created: "2026-01-09T03:31:06.776527443Z"
+    created: "2026-01-14T03:32:31.454149146Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8119,7 +8153,7 @@ entries:
         \   - name: \"Stefan Warnat aka @swarnat\"\n      url: https://github.com/swarnat\n"
     apiVersion: v2
     appVersion: 0.217.1
-    created: "2026-01-09T03:31:06.905064614Z"
+    created: "2026-01-14T03:32:31.575790606Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8150,7 +8184,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.210.0
-    created: "2026-01-09T03:31:06.899673825Z"
+    created: "2026-01-14T03:32:31.569969826Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -8181,7 +8215,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.209.4
-    created: "2026-01-09T03:31:06.893599688Z"
+    created: "2026-01-14T03:32:31.565304779Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8208,7 +8242,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.111.0
-    created: "2026-01-09T03:31:06.8929681Z"
+    created: "2026-01-14T03:32:31.564666749Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8235,7 +8269,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.110.3
-    created: "2026-01-09T03:31:06.892339716Z"
+    created: "2026-01-14T03:32:31.56355974Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8262,7 +8296,7 @@ entries:
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.109.0
-    created: "2026-01-09T03:31:06.891692288Z"
+    created: "2026-01-14T03:32:31.562478206Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8289,7 +8323,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.100.0
-    created: "2026-01-09T03:31:06.800398874Z"
+    created: "2026-01-14T03:32:31.476260457Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8316,7 +8350,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2026-01-09T03:31:06.771798381Z"
+    created: "2026-01-14T03:32:31.449575028Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8343,7 +8377,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2026-01-09T03:31:06.77036858Z"
+    created: "2026-01-14T03:32:31.448937078Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8370,7 +8404,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.94.1
-    created: "2026-01-09T03:31:06.769676854Z"
+    created: "2026-01-14T03:32:31.448270395Z"
     description: A Kubernetes Helm chart for n8n a free and open fair-code licensed
       node based Workflow Automation Tool. Easily automate tasks across different
       services.
@@ -8397,8 +8431,43 @@ entries:
     version: 0.1.0
   paperless-ngx:
   - apiVersion: v2
+    appVersion: 2.20.4
+    created: "2026-01-14T03:32:32.13464515Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://docker.io/bitnamicharts
+      version: ^16.5.6
+    - condition: valkey.internal
+      name: valkey
+      repository: https://valkey.io/valkey-helm/
+      version: 0.9.2
+    description: A document management system that transforms your physical documents
+      into a searchable online archive so you can keep, well, less paper.
+    digest: 355f0507f60f791960c4be709d50394009a3e3f0d788d5e75cac451ae71be6c1
+    home: https://wrenix.eu/docs/helm-charts/paperless-ngx/
+    icon: https://github.com/paperless-ngx/paperless-ngx/raw/main/resources/logo/web/svg/square.svg
+    keywords:
+    - paperless
+    - paperless-ng
+    - paperless-ngx
+    - dms
+    - document
+    maintainers:
+    - name: WrenIX
+      url: https://wrenix.eu
+    name: paperless-ngx
+    sources:
+    - https://github.com/paperless-ngx/paperless-ngx
+    - https://git.chaos.fyi/wrenix/helm-charts/src/branch/main/paperless-ngx
+    - https://codeberg.org/wrenix/helm-charts/src/branch/main/paperless-ngx
+    type: application
+    urls:
+    - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.3.9.tgz
+    version: 0.3.9
+  - apiVersion: v2
     appVersion: 2.20.3
-    created: "2026-01-09T03:31:07.516404886Z"
+    created: "2026-01-14T03:32:32.128507283Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8433,7 +8502,7 @@ entries:
     version: 0.3.8
   - apiVersion: v2
     appVersion: 2.20.1
-    created: "2026-01-09T03:31:07.508322564Z"
+    created: "2026-01-14T03:32:32.122039712Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8468,7 +8537,7 @@ entries:
     version: 0.3.7
   - apiVersion: v2
     appVersion: 2.20.1
-    created: "2026-01-09T03:31:07.497847547Z"
+    created: "2026-01-14T03:32:32.115325126Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8503,7 +8572,7 @@ entries:
     version: 0.3.6
   - apiVersion: v2
     appVersion: 2.20.0
-    created: "2026-01-09T03:31:07.487844293Z"
+    created: "2026-01-14T03:32:32.109287209Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8538,7 +8607,7 @@ entries:
     version: 0.3.5
   - apiVersion: v2
     appVersion: 2.19.6
-    created: "2026-01-09T03:31:07.480355338Z"
+    created: "2026-01-14T03:32:32.103310586Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8573,7 +8642,7 @@ entries:
     version: 0.3.4
   - apiVersion: v2
     appVersion: 2.19.6
-    created: "2026-01-09T03:31:07.470476281Z"
+    created: "2026-01-14T03:32:32.096931952Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8608,7 +8677,7 @@ entries:
     version: 0.3.3
   - apiVersion: v2
     appVersion: 2.19.4
-    created: "2026-01-09T03:31:07.461125161Z"
+    created: "2026-01-14T03:32:32.091051351Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8643,7 +8712,7 @@ entries:
     version: 0.3.2
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2026-01-09T03:31:07.455246072Z"
+    created: "2026-01-14T03:32:32.085052536Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8678,7 +8747,7 @@ entries:
     version: 0.3.1
   - apiVersion: v2
     appVersion: 2.19.2
-    created: "2026-01-09T03:31:07.448171672Z"
+    created: "2026-01-14T03:32:32.078840896Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8713,7 +8782,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2026-01-09T03:31:07.335010084Z"
+    created: "2026-01-14T03:32:31.98463899Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8748,7 +8817,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2026-01-09T03:31:07.439006663Z"
+    created: "2026-01-14T03:32:32.073561212Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8783,7 +8852,7 @@ entries:
     version: 0.2.9
   - apiVersion: v2
     appVersion: 2.18.4
-    created: "2026-01-09T03:31:07.425065418Z"
+    created: "2026-01-14T03:32:32.06200908Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8818,7 +8887,7 @@ entries:
     version: 0.2.8
   - apiVersion: v2
     appVersion: 2.18.2
-    created: "2026-01-09T03:31:07.409499936Z"
+    created: "2026-01-14T03:32:32.050512148Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8853,7 +8922,7 @@ entries:
     version: 0.2.7
   - apiVersion: v2
     appVersion: 2.18.1
-    created: "2026-01-09T03:31:07.394005882Z"
+    created: "2026-01-14T03:32:32.039932756Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8888,7 +8957,7 @@ entries:
     version: 0.2.6
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.382458247Z"
+    created: "2026-01-14T03:32:32.029366021Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8923,7 +8992,7 @@ entries:
     version: 0.2.5
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.370743396Z"
+    created: "2026-01-14T03:32:32.018746585Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8958,7 +9027,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.359126054Z"
+    created: "2026-01-14T03:32:32.007642349Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -8993,7 +9062,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.346800033Z"
+    created: "2026-01-14T03:32:31.995849095Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9028,7 +9097,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.322399512Z"
+    created: "2026-01-14T03:32:31.97397151Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9063,7 +9132,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.311579952Z"
+    created: "2026-01-14T03:32:31.963246629Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9098,7 +9167,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.22202654Z"
+    created: "2026-01-14T03:32:31.878693458Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9133,7 +9202,7 @@ entries:
     version: 0.1.24
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.21117229Z"
+    created: "2026-01-14T03:32:31.867285828Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9168,7 +9237,7 @@ entries:
     version: 0.1.23
   - apiVersion: v2
     appVersion: 2.17.1
-    created: "2026-01-09T03:31:07.200363974Z"
+    created: "2026-01-14T03:32:31.855668952Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9203,7 +9272,7 @@ entries:
     version: 0.1.22
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.189548489Z"
+    created: "2026-01-14T03:32:31.84532394Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9238,7 +9307,7 @@ entries:
     version: 0.1.21
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.177644303Z"
+    created: "2026-01-14T03:32:31.834805823Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9273,7 +9342,7 @@ entries:
     version: 0.1.20
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.154323803Z"
+    created: "2026-01-14T03:32:31.813536248Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9308,7 +9377,7 @@ entries:
     version: 0.1.19
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.142993749Z"
+    created: "2026-01-14T03:32:31.801672883Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9343,7 +9412,7 @@ entries:
     version: 0.1.18
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.131966543Z"
+    created: "2026-01-14T03:32:31.79112779Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9378,7 +9447,7 @@ entries:
     version: 0.1.17
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.121046995Z"
+    created: "2026-01-14T03:32:31.780758831Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9413,7 +9482,7 @@ entries:
     version: 0.1.16
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.109937857Z"
+    created: "2026-01-14T03:32:31.770463166Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9448,7 +9517,7 @@ entries:
     version: 0.1.15
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.098212779Z"
+    created: "2026-01-14T03:32:31.760117425Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9483,7 +9552,7 @@ entries:
     version: 0.1.14
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.085899231Z"
+    created: "2026-01-14T03:32:31.749099662Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9518,7 +9587,7 @@ entries:
     version: 0.1.13
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.074829342Z"
+    created: "2026-01-14T03:32:31.737473449Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9553,7 +9622,7 @@ entries:
     version: 0.1.12
   - apiVersion: v2
     appVersion: 2.15.3
-    created: "2026-01-09T03:31:07.063605158Z"
+    created: "2026-01-14T03:32:31.727053967Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9588,7 +9657,7 @@ entries:
     version: 0.1.11
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2026-01-09T03:31:07.051435296Z"
+    created: "2026-01-14T03:32:31.71683871Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9623,7 +9692,7 @@ entries:
     version: 0.1.10
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2026-01-09T03:31:07.300269366Z"
+    created: "2026-01-14T03:32:31.95272447Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9658,7 +9727,7 @@ entries:
     version: 0.1.9
   - apiVersion: v2
     appVersion: 2.15.1
-    created: "2026-01-09T03:31:07.2894614Z"
+    created: "2026-01-14T03:32:31.942103466Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9693,7 +9762,7 @@ entries:
     version: 0.1.8
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2026-01-09T03:31:07.278537705Z"
+    created: "2026-01-14T03:32:31.930294933Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9728,7 +9797,7 @@ entries:
     version: 0.1.7
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.267331979Z"
+    created: "2026-01-14T03:32:31.919711902Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9763,7 +9832,7 @@ entries:
     version: 0.1.6
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.256018834Z"
+    created: "2026-01-14T03:32:31.909554593Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9798,7 +9867,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.244850222Z"
+    created: "2026-01-14T03:32:31.899251484Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9833,7 +9902,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.23280121Z"
+    created: "2026-01-14T03:32:31.888932237Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9868,7 +9937,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.165100324Z"
+    created: "2026-01-14T03:32:31.824308902Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9903,7 +9972,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.039871628Z"
+    created: "2026-01-14T03:32:31.706020453Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9938,7 +10007,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 2.14.7
-    created: "2026-01-09T03:31:07.02772949Z"
+    created: "2026-01-14T03:32:31.694345437Z"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -9971,4 +10040,4 @@ entries:
     urls:
     - https://notepass.github.io/helm-oci-proxied-charts/charts/paperless-ngx-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-09T03:31:04.349192613Z"
+generated: "2026-01-14T03:32:29.071773948Z"
