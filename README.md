@@ -4,6 +4,7 @@ for using it as a proper helm repository.
 I created it, as the OCI integration in helm is still very poor and breaks a lot of workflows.
 
 ## Currently deployed
+- immich from the [ghcr.io](oci://ghcr.io/immich-app/immich-charts/immich) Repository
 - opencloud from the [ghcr.io](oci://ghcr.io/tim-herbie/opencloud-helm/opencloud) Repository
 - forgejo from the [code.forgejo.org](oci://code.forgejo.org/forgejo-helm/forgejo) Repository
 - gha-runner-scale-set-controller from the [ghcr.io](oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller) Repository
