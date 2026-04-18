@@ -3,3 +3,4 @@ oci://8gears.container-registry.com/library/n8n
 oci://ghcr.io/actions/actions-runner-controller-charts/gha-runner-scale-set-controller
 oci://code.forgejo.org/forgejo-helm/forgejo
 oci://ghcr.io/tim-herbie/opencloud-helm/opencloud
+oci://ghcr.io/immich-app/immich-charts/immich
